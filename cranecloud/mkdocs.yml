@@ -1,0 +1,12 @@
+site_name: Crane Cloud
+nav:
+  - quickstart:
+      - quickstart: quickstart/quickstart.md
+  - Projects: project.md
+  - Applications: apps.md
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: blue
