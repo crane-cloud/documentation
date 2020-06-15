@@ -2,6 +2,8 @@ site_name: Crane Cloud
 nav:
   - quickstart:
       - quickstart: quickstart/quickstart.md
+  - Authentication:
+      - Registration: authentication/authentication.md
   - Projects: project.md
   - Applications:
      - Application Containerization: applications/appContainerization.md
