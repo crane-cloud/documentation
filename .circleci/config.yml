@@ -1,0 +1,63 @@
+
+attach_workspace: &attach_workspace
+  attach_workspace:
+    at: ~/crane-cloud
+
+persist_to_workspace: &persist_to_workspace
+  persist_to_workspace:
+    root: .
+    paths: .
+
+build_and_push_image: &build_and_push_image
+  run:
+    name: build image
+    command: |
+      export IMG_TAG=$(echo $CIRCLE_SHA1 | cut -c -7)
+      docker login -u _json_key -p "$(echo $GCLOUD_SERVICE_KEY)" https://gcr.io
+      docker build -f Dockerfile -t gcr.io/$GCP_PROJECT_ID/cranecloud-docs:$IMG_TAG .
+      docker push gcr.io/$GCP_PROJECT_ID/cranecloud-docs:$IMG_TAG
+
+configure_gcloud: &configure_gcloud
+  run:
+    name: configure gcloud default settings
+    command: |
+      echo $GCLOUD_SERVICE_KEY > ~/crane-cloud/auth_key._json_key
+      gcloud auth activate-service-account --key-file ~/crane-cloud/auth_key._json_key
+      gcloud container clusters get-credentials staging-cluster --zone us-central1-a --project $GCP_PROJECT_ID
+
+deploy_to_kubernetes: &deploy_to_kubernetes
+  run:
+    name: update deployment image
+    command: |
+      export IMG_TAG=$(echo $CIRCLE_SHA1 | cut -c -7)
+      ./kubectl set image deployment/cranecloud-docs cranecloud-docs=gcr.io/$GCP_PROJECT_ID/cranecloud-docs:$IMG_TAG --record -n cranecloud
+
+
+jobs:
+  build_and_deploy_staging:
+    docker:
+      - image: google/cloud-sdk
+        environment:
+          GOOGLE_APPLICATION_CREDENTIALS: /root/crane-cloud
+    working_directory: ~/crane-cloud
+    steps:
+      - checkout
+      - setup_remote_docker
+      - run:
+          name: install kubectl
+          command: |
+            curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s https://storage.googleapis.com/kubernetes-release/release/stable.txt)/bin/linux/amd64/kubectl
+            chmod u+x ./kubectl
+      - *configure_gcloud
+      - *build_and_push_image
+      - *deploy_to_kubernetes
+      
+workflows:
+    version: 2
+    cranecloud_deployment:
+        jobs:
+            - build_and_deploy_staging:
+                filters:
+                    branches:
+                        only: auto-deploy
+      
