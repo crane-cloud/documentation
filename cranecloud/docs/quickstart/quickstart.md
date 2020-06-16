@@ -9,12 +9,40 @@
 
 4. The registration confirmation link will lead you to your dashboard(Projects). If you are a return use, you will need to login to get to the dashbaord. 
 
-5. Create
 
 ## Email Confirmation
+1. Your account verification email will look like this below. 
+![](../img/verifyEmail.png)
+2. All that is required of you is to click the `Confirm Account` button in the email.
 
 ## Create Project
+1. Login into your account and click the `orange Create button` at the top right corner of your dashboard. 
+![](../img/projectsDashboard.png)
+
+2. It will pop up a modal containing a form to create a project. 
+
+3. First, `select a cluster` where your project will reside. Fill in the form with `Project Name` and `Project description` and click `PROCEED` to submit.
+           ![](../img/createProjectForm.png)
+
+4. Your Page will auto reload to display the newly created project.
 
 ## Create Application
+1. To create an Application, you need click on a project card to drill into that project.  
+
+2. Then, click the Create button on the top right corner of your apps' dashboard, to display create App Form.
+![](../img/appDashboard.png)
+
+3. It will pop up a modal containing a form to create an App. Let us use a case study: Deploy a simple Nginx hello world app, with a public image `nginxdemos/hello` on Dockerhub. 
+
+    - Enter the App name 
+    - Enter the image url 
+    - Submit the form.
+    - The page will reload and display your newly created application. 
+    
+    ![](../img/createAppForm.png)
 
 ## Access application
+1. Navigate into your project to view a list of applications you created under that project.
+    ![](../img/appDashwithApps.png)
+
+2. To access a particular application, click on the URL attached to its card. The green dot on the App card symbolizes that the App is running without any issues. 
