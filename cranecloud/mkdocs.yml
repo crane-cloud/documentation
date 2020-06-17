@@ -3,7 +3,7 @@ nav:
   - quickstart:
       - quickstart: quickstart/quickstart.md
   - Authentication:
-      - Registration: authentication/authentication.md
+      - Registration: authentication/registration.md
   - Projects: project.md
   - Applications: apps.md
 theme:
