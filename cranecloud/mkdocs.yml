@@ -7,6 +7,7 @@ nav:
       - Account Verification: authentication/accountVerification.md
       - Login: authentication/login.md
       - User Dashboard: authentication/userDashboard.md
+      - Forgot Password: authentication/forgotPassword.md
   - Projects: project.md
   - Applications: apps.md
 theme:
