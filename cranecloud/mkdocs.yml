@@ -5,6 +5,7 @@ nav:
   - Authentication:
       - Registration: authentication/registration.md
       - Account Verification: authentication/accountVerification.md
+      - Login: authentication/login.md
   - Projects: project.md
   - Applications: apps.md
 theme:
