@@ -3,7 +3,8 @@ nav:
   - quickstart:
       - quickstart: quickstart/quickstart.md
   - Projects: project.md
-  - Applications: apps.md
+  - Applications:
+     - Application Containerization: applications/appContainerization.md
 theme:
   name: material
   palette:
