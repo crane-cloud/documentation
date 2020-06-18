@@ -5,6 +5,7 @@ nav:
   - Projects: project.md
   - Applications:
      - Application Containerization: applications/appContainerization.md
+     - Application Creation/Deployment: applications/deployApp.md
 theme:
   name: material
   palette:
