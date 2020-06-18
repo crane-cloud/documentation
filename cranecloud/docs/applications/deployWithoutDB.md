@@ -8,3 +8,4 @@ Upon successful login into your Crane cloud account, and after successfully crea
 **User Actions:**
 
 1. Drill into a project that you created of your choice and click the plus button in the top right corner of the application. This will pop up a modal containing a form that will help you deploy your application.
+![](../img/empty_project.png)
