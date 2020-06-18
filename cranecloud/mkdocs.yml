@@ -2,7 +2,8 @@ site_name: Crane Cloud
 nav:
   - quickstart:
       - quickstart: quickstart/quickstart.md
-  - Projects: project.md
+  - Projects:
+      - projects: projects/projects.md
   - Applications: apps.md
 theme:
   name: material
