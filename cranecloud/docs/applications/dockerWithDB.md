@@ -36,7 +36,8 @@ Joe Doe would need to undertake the steps below to have the Flask API up and run
 
 * When checked, it displays a form for you to enter your DockerHub credentials used for authentication when the image is being pulled. In the server field, enter Url path to image 
 
-* 
+* ![](../img/private_image.png)
+
 * Enter the entry command if any
 
 * Enter the port on which you want your App to run (defaults to port 80)

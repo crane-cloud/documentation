@@ -8,6 +8,7 @@ nav:
      - Application Creation/Deployment: applications/deployApp.md
      - Deploy Application without Database Support: applications/deployWithoutDB.md
      - Deploy an app Image from Docker with Database Support: applications/dockerWithDB.md
+     - Deploy an app Image from GCR with Database Support: applications/gcrWithDB.md
 theme:
   name: material
   palette:
