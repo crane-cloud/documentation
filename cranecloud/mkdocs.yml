@@ -4,6 +4,7 @@ nav:
       - quickstart: quickstart/quickstart.md
   - Authentication:
       - Registration: authentication/registration.md
+      - Account Verification: authentication/accountVerification.md
   - Projects: project.md
   - Applications:
      - Application Containerization: applications/appContainerization.md
