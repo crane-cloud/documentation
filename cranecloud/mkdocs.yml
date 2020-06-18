@@ -6,6 +6,7 @@ nav:
       - Registration: authentication/registration.md
       - Account Verification: authentication/accountVerification.md
       - Login: authentication/login.md
+      - User Dashboard: authentication/userDashboard.md
   - Projects: project.md
   - Applications:
      - Application Containerization: applications/appContainerization.md
