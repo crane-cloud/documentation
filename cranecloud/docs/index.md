@@ -16,3 +16,5 @@ Crane Cloud is managed cloud service platform that supports:
 * Application Monitoring
 * Service scheduling
 * Auto scaling and replication
+
+Visit <http://staging.cranecloud.io/> today to get started.
