@@ -1,5 +1,5 @@
 ## Login
-1\. Browse this URL http://staging.cranecloud.io/login to access the Crane Cloud login portal, similar to the one below
+1\. Browse this URL <http://staging.cranecloud.io/login> to access the Crane Cloud login portal, similar to the one below
 ![](../img/login_page.png)
 
 Enter your email address and password, then  click LOGIN 
