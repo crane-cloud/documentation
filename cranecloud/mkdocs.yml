@@ -8,7 +8,8 @@ nav:
       - Login: authentication/login.md
       - User Dashboard: authentication/userDashboard.md
       - Forgot Password: authentication/forgotPassword.md
-  - Projects: project.md
+  - Projects:
+      - projects: projects/projects.md
   - Applications: apps.md
 theme:
   name: material
