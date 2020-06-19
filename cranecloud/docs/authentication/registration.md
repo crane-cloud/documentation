@@ -1,5 +1,5 @@
 ## Registration
-1\. To register visit cranecloud.io and click the `GET STARTED `Button
+1\. To register visit http://staging.cranecloud.io/ and click the `GET STARTED `Button
 ![](../img/get_started.png)
 
 Alternatively you can click the `Create an account` link on the *Login page.*
@@ -14,7 +14,7 @@ In case you do not fill out any fields in the form, this error appears
 3\. When you fill in the `Name`, the name can be any alphanumeric value
 
 In case of an  error with the name like white spaces, this error shows
-  ![](../img/)
+  ![](../img/name_error.png)
 
 4\. The Email input field should conform to a standard email.
 
