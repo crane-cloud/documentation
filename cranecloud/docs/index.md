@@ -1,17 +1,18 @@
 # Welcome to Crane Cloud
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+![](/img/landingPage.png)
 
-## Commands
+## Documentation Overview
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* `QuickStart` - Steps to quickly get you to deploy an application.
+* `Authentication` - Dive deeper in SignUp, LogIn and Password Reset.
+* `Projects` - Explore possibilities of Updating and Deleting a project.
+* `Applications` - Guidelines on how to deploy various applications.
 
-## Project layout
+## About Crane Cloud
+Crane Cloud is managed cloud service platform that supports:
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Application deployment
+* Application Monitoring
+* Service scheduling
+* Auto scaling and replication
