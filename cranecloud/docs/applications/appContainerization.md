@@ -3,4 +3,4 @@ A container is a standard unit of software that packages up code and all it's de
 
 **Container images become containers at runtime.**
 
-If you have your application already containerized jump to the next section. If you have no need help containerizing you could use ![this resource](https://docs.docker.com/develop).
+If you have your application already containerized jump to the next section. If you have no need help containerizing you could use this resource <https://docs.docker.com/develop>.
