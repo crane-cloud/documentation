@@ -1,6 +1,6 @@
 site_name: Crane Cloud
 nav:
-  - quickstart:
+  - Quickstart:
       - quickstart: quickstart/quickstart.md
   - Authentication:
       - Registration: authentication/registration.md

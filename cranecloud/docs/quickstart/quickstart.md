@@ -1,5 +1,7 @@
+# QUICK START
+
 ## Registration
-1. Visit cranecloud.io and click the `GET STARTED Button`
+1. Visit <http://staging.cranecloud.io/> and click the `GET STARTED Button`
 ![](../img/get_started.png)
 
 2. Fill in all the required information, agree to terms and conditions and click `Register`
