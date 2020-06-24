@@ -1,18 +1,5 @@
 # PROJECT DETAILS
 
-## Project Creation  Errors
-
-**Note: The following errors may occur when creating Projects**
-
-1. In case the project name you entered contains space or symbols you will get this error below.
-![](../img/projectError1.png)
-
-2. If you do not fill one of the modal fields, you get this error.
-![](../img/projectError2.png)
-
-3. When you try to create a project with the same name as one of your existing projects you will get this error.   
-![](../img/projectError3.png)
-
 ## Editing A Project
 
 1. To edit your project, click the 3(three) dots on the bottom right-hand side of the project card.
@@ -46,3 +33,16 @@
     ![](../img/deleteProject3.png)
 
 *** Once you click the delete button, you will be unable to recover the deleted project. ***
+
+## Project Creation  Errors
+
+**Note: The following errors may occur when creating Projects**
+
+1. In case the project name you entered contains space or symbols you will get this error below.
+![](../img/projectError1.png)
+
+2. If you do not fill one of the modal fields, you get this error.
+![](../img/projectError2.png)
+
+3. When you try to create a project with the same name as one of your existing projects you will get this error.   
+![](../img/projectError3.png)
