@@ -1,7 +1,7 @@
 site_name: Crane Cloud
 nav:
   - Quickstart:
-      - quickstart: quickstart/quickstart.md
+      - Quickstart: quickstart/quickstart.md
   - Authentication:
       - Registration: authentication/registration.md
       - Account Verification: authentication/accountVerification.md
@@ -9,10 +9,10 @@ nav:
       - User Dashboard: authentication/userDashboard.md
       - Forgot Password: authentication/forgotPassword.md
   - Projects:
-      - projects: projects/projects.md
+      - Projects: projects/projects.md
   - Applications:
      - Application Containerization: applications/appContainerization.md
-     - Application Creation/Deployment: applications/deployApp.md
+     - Application Deployment: applications/deployApp.md
      - Deploy Application without Database Support: applications/deployWithoutDB.md
      - Deploy an app Image from Docker with Database Support: applications/dockerWithDB.md
      - Deploy an app Image from GCR with Database Support: applications/gcrWithDB.md
