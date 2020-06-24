@@ -14,6 +14,9 @@
 5. Create
 
 ## Email Confirmation
+1. Your account verification email will look like this below. 
+![](../img/test_user.png)
+2. All that is required of you is to click the `Confirm Account` button in the email.
 
 ## Create Project
 
