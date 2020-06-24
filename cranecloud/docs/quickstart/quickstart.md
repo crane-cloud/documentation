@@ -1,4 +1,4 @@
-# QUICK START
+# Quickstart
 
 ## Registration
 1. Visit <http://staging.cranecloud.io/> and click the `GET STARTED Button`
@@ -22,4 +22,8 @@
 
 ## Create Application
 
-## Access application
+## Access Application
+1. Navigate into your project to view a list of applications you created under that project.
+    ![](../img/appDashwithApps.png)
+
+2. To access a particular application, click on the URL attached to its card. The green dot on the application card symbolizes that the application is running. 
