@@ -49,4 +49,4 @@ Joe Doe would need to undertake the steps below to have the Flask API up and run
 
 * Press the Proceed button
 
-***Note:**  These steps apply to all Apps that require database support and whose images are stored on Dockerhub. Crane Cloud currently supports **Postgres Database.***
+***Note:***  These steps apply to all Apps that require database support and whose images are stored on Dockerhub. Crane Cloud currently supports ***Postgres Database.***
