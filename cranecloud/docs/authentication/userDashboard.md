@@ -4,7 +4,7 @@
 ![](../img/user_projects.png)
 
 2\. And the page below in case you have no projects yet.
-    ![](../img/user_dashboard.png)
+    ![](../img/projectsDashboard.png)
 
 3\. Your name appears on the top right side of the page.
 
