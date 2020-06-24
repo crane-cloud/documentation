@@ -6,7 +6,7 @@
     ![](../img/test_user.png)
 
 3\. In your email either click the Confirm Account button or the link below and you will get signed into your account, the user dashboard.
-![](../img/user_dashboard.png)
+![](../img/projectsDashboard.png)
 
 **Ensure to verify your account as early as possible considering the link is sent with a token that expires.**
 
