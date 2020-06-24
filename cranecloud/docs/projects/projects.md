@@ -35,11 +35,11 @@
 
 1. To delete a project, click the 3(three) dots on the bottom right-hand side of the project card.
 
-    ![](../img/deleteProject1.png)
+    ![](../img/updateProject1.png)
 
 2. A context menu appears on which you click the delete option of the menu.
 
-    ![](../img/deleteProject2.png)
+    ![](../img/updateProject2.png)
 
 3. A  modal appears prompting you to go ahead and delete the project.
 
