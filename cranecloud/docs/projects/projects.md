@@ -1,17 +1,9 @@
 # PROJECT DETAILS
 
-## Project Creation  Errors
+## Projects Naming Convention 
+1. All project names should start with a letter.
 
-**Note: The following errors may occur when creating Projects**
-
-1. In case the project name you entered contains space or symbols you will get this error below.
-![](../img/projectError1.png)
-
-2. If you do not fill one of the modal fields, you get this error.
-![](../img/projectError2.png)
-
-3. When you try to create a project with the same name as one of your existing projects you will get this error.   
-![](../img/projectError3.png)
+2. Project names are only unique for a given user
 
 ## Editing A Project
 
@@ -46,3 +38,16 @@
     ![](../img/deleteProject3.png)
 
 *** Once you click the delete button, you will be unable to recover the deleted project. ***
+
+## Project Creation  Errors
+
+**Note: The following errors may occur when creating Projects**
+
+1. In case the project name you entered contains space or symbols you will get this error below.
+![](../img/projectError1.png)
+
+2. If you do not fill one of the modal fields, you get this error.
+![](../img/projectError2.png)
+
+3. When you try to create a project with the same name as one of your existing projects you will get this error.   
+![](../img/projectError3.png)
