@@ -1,3 +1,4 @@
+# Delete Deployed Application
 **Note: Once applications are deleted, the action is irreversible.**
 
 Once inside your project select the individual application. Click the 3(three) *dots* on the top right side of the application card. A two-list context menu will appear as shown below.
