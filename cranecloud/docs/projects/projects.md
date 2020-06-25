@@ -1,5 +1,10 @@
 # PROJECT DETAILS
 
+## Projects Naming Convention 
+1. All project names should start with a letter.
+
+2. Project names are only unique for a given user
+
 ## Editing A Project
 
 1. To edit your project, click the 3(three) dots on the bottom right-hand side of the project card.
