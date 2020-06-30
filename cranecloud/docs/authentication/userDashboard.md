@@ -13,4 +13,4 @@
 4\. Next to your name is a down arrow that once clicked displays a context menu.
   ![](../img/user_dropdown.png)
 
-You can click the Logout list item on the drop-down to log out of your account.
+You can click the *Docs* list item to access the application docs and the *Logout* list item on the drop-down to log out of your account.
