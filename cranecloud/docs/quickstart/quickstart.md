@@ -37,6 +37,7 @@
 3. It will pop up a modal containing a form to create an application. Let us use a case study: Deploy a simple Nginx hello world application, with a public image `nginxdemos/hello` on Dockerhub. 
 
     - Enter the application name 
+    - Select number of replicas for your app.
     - Enter the image url 
     - Submit the form.
     - The page will reload and display your newly created application. 
