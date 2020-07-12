@@ -9,11 +9,13 @@ Joe Doe would need to undertake the steps below to have the Flask API up and run
 ![](../img/empty_project.png)
 
 2\. A modal containing the App deployment form will then pop up.
-![](../img/deploy_modal.png)
+![](../img/createAppForm.png)
 
 3\.  IF the application image is a docker public image:
 
 * Enter your App Name
+
+* Select number of app replicas you want
 
 * Enter absolute URL to the docker image
 
@@ -46,6 +48,16 @@ Joe Doe would need to undertake the steps below to have the Flask API up and run
 * Enter and Add any App specific environment variables
 
 * Check the box for Database Support
+
+* ![](../img/dbFlavor.png)
+
+* Select the database Flavor for your application from the available options
+
+* Enter your prefered database name
+
+* Enter your prefered database user name
+
+* Enter your prefered database password
 
 * Press the Proceed button
 
