@@ -21,6 +21,20 @@
 ## Create Project
 
 ## Create Application
+1. To create an application, you need click on a project card to drill into that project.  
+
+2. Then, click the `Create button` on the top right corner of your applications' dashboard, to display create application Form.
+![](../img/appDashboard.png)
+
+3. It will pop up a modal containing a form to create an application. Let us use a case study: Deploy a simple Nginx hello world application, with a public image `nginxdemos/hello` on Dockerhub. 
+
+    - Enter the application name 
+    - Select number of replicas for your app.
+    - Enter the image url 
+    - Submit the form.
+    - The page will reload and display your newly created application. 
+    
+    ![](../img/createAppForm.png)
 
 ## Access Application
 1. Navigate into your project to view a list of applications you created under that project.
