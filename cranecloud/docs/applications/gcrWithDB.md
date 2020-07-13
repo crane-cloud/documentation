@@ -5,6 +5,8 @@ IF the application image is a GCR public image:
 
 * Enter your App Name
 
+* Select number of replicas for your app
+
 * Enter absolute URL to the docker image
 
 * Enter the entry command if any
@@ -14,6 +16,17 @@ IF the application image is a GCR public image:
 * Enter and Add any App specific environment variables
 
 * Check the box for Database Support
+
+* ![](../img/dbFlavor.png)
+
+* Select the database Flavor for your application from the available options
+
+* Enter your prefered database name
+
+* Enter your prefered database user name
+
+* Enter your prefered database password
+
 
 * Press the Proceed button
 
@@ -39,6 +52,17 @@ IF the application image is a GCR public image:
 * Enter and Add any App specific environment variables
 
 * Check the box for Database Support
+
+* ![](../img/dbFlavor.png)
+
+* Select the database Flavor for your application from the available options
+
+* Enter your prefered database name
+
+* Enter your prefered database user name
+
+* Enter your prefered database password
+
 
 * Press the Proceed button
 
