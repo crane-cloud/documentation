@@ -17,6 +17,8 @@ nav:
      - Deploy an app Image from Docker with Database Support: applications/dockerWithDB.md
      - Deploy an app Image from GCR with Database Support: applications/gcrWithDB.md
      - Delete deployed application: applications/deleteApp.md
+  - Databases:
+      - Database Support: databases/info.md
 theme:
   name: material
   palette:
