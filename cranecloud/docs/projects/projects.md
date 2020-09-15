@@ -25,13 +25,11 @@
 
 ## Deleting A Project
 
-1. To delete a project, click the 3(three) dots on the bottom right-hand side of the project card.
+1. To delete a project, click the Project's setting icon on the sidebar to take you to the Projects settings page.
 
-    ![](../img/updateProject1.png)
+    ![](../img/settings_page.png)
 
-2. A context menu appears on which you click the delete option of the menu.
-
-    ![](../img/updateProject2.png)
+2. Click the red button that reads *Delete Project* and a modal appears.
 
 3. A  modal appears prompting you to go ahead and delete the project.
 
