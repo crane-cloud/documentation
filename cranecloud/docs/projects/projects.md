@@ -61,4 +61,4 @@
 ![](../img/projectError3.png)
 
 4. When the project name exceeds 22 characters, you will get the error below.
-![](../img/projectError4.png)
+![](../img/projectError4.png)g
