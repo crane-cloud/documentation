@@ -11,11 +11,11 @@
 
     ![](../img/singularProject.png)
 
-2. Once inside the project,click on the settings icon on the bottom left corner of the page. 
+2. Once inside the project,an apps page appears similar to that one below.
 
     ![](../img/apps_page.png)
 
-3. On clicking the icon, a page appears similar to the one below.
+3. On the apps page, click on the settings icon on the bottom left corner of the page. 
 
     ![](../img/settings_icon.png)
 
