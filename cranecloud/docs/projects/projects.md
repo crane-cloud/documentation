@@ -31,7 +31,7 @@
 
 2. Click the red button that reads *Delete Project* and a modal appears.
 
-3. A  modal appears prompting you to go ahead and delete the project.
+3. A  modal appears prompting you to go ahead and delete the project, but the action is irreversible.
 
     ![](../img/deleteProject3.png)
 
