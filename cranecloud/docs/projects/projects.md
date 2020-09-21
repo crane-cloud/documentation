@@ -15,7 +15,7 @@
 
     ![](../img/apps_page.png)
 
-3. On the apps page, click on the settings icon on the bottom left corner of the page. 
+3. On the apps page, click on the settings icon on the bottom left corner of the page, on clicking the icon, a page appears similar to the one below.
 
     ![](../img/settings_icon.png)
 
@@ -61,4 +61,4 @@
 ![](../img/projectError3.png)
 
 4. When the project name exceeds 22 characters, you will get the error below.
-![](../img/projectError4.png)
+![](../img/projectError4.png)g
