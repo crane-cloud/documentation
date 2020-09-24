@@ -9,31 +9,39 @@
 
 1. To edit your project, click on the project card.
 
-    ![](../img/updateProject1.png)
+    ![](../img/singularProject.png)
 
-2. Once inside the project,click on the settings icon on the bottom left corner of the page. 
+2. Once inside the project,an apps page appears similar to that one below.
 
-    ![](../img/updateProject2.png)
+    ![](../img/apps_page.png)
 
-3. On clicking the icon, a page appears similar to the one below.
+3. On the apps page, click on the settings icon on the bottom left corner of the page, on clicking the icon, a page appears similar to the one below.
 
-    ![](../img/updateProject3.png)
+    ![](../img/settings_icon.png)
 
 4. If you only edit the description, the proceed button will not work. Otherwise when you either edit the project name only or both the name and the description and click the proceed button, the effects will have been affected.
 
-    ![](../img/updateProject4.png)
+    ![](../img/settings_page.png)
 
 ## Deleting A Project
 
-1. To delete a project, click the 3(three) dots on the bottom right-hand side of the project card.
+1. To delete a project, click on the project card.
 
-    ![](../img/updateProject1.png)
+    ![](../img/singularProject.png)
 
-2. A context menu appears on which you click the delete option of the menu.
+2. Once inside the project,an apps page appears similar to that one below.
 
-    ![](../img/updateProject2.png)
+    ![](../img/apps_page.png)
 
-3. A  modal appears prompting you to go ahead and delete the project.
+3. On the apps page, click on the settings icon on the bottom left corner of the page. 
+
+    ![](../img/settings_icon.png)
+
+4. That takes you to the page below that has a "Delete Project" button. Click the *Delete Project* button.
+
+    ![](../img/settings_page.png)
+
+5. On clicking the button, a modal appears prompting you to go ahead and delete the project.
 
     ![](../img/deleteProject3.png)
 
