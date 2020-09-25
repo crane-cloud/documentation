@@ -19,6 +19,11 @@ nav:
      - Delete deployed application: applications/deleteApp.md
   - Databases:
       - Database Support: databases/info.md
+  - Monitoring:
+      - Project Metrics: monitoring/projectMetrics.md
+      - Project Memory: monitoring/projectMemory.md
+      - Project CPU: monitoring/projectCPU.md
+      - Project Network: monitoring/projectNetwork.md
 theme:
   name: material
   palette:
