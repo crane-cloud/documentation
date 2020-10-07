@@ -9,11 +9,12 @@
 * `Projects` - Explore possibilities of Updating and Deleting a project.
 * `Applications` - Guidelines on how to deploy various applications.
 * `Monitoring` - Comprehensive view of monitoring at Project and Application levels.
+
 ## About Crane Cloud
 Crane Cloud is managed cloud service platform that supports:
 
 * Application deployment
-* Project and Application Monitoring
+* Application Monitoring
 * Service scheduling
 * Auto scaling and replication
 

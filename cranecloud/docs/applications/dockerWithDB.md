@@ -6,7 +6,11 @@ Joe Doe would need to undertake the steps below to have the Flask API up and run
 **User Actions:**
 
 1\. After logging in to your Crane Cloud Account and creating a Project, drill into a particular project. and click the *Create button* at the top right corner of the Apps dashboard page.
+<<<<<<< HEAD
 ![](../img/empty_project.png)
+=======
+![](../img/appsemptypage.png)
+>>>>>>> 3938a41e3d8e4a8c546392bc7bd183b98c3621b6
 
 2\. A modal containing the App deployment form will then pop up.
 ![](../img/createAppForm.png)
