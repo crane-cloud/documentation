@@ -49,10 +49,10 @@
 
 ## Logs Page
 1. The logs page can be accessed by clicking the *Logs* in the sidebar.
-   ![](https://user-images.githubusercontent.com/29985169/93858610-1340eb80-fcc5-11ea-9810-26d5b6dc7625.png)
+   ![](../img/logspage.png)
 
 2. The theme of the logs page can be changed to dark and switched back basing on ones preference by clicking on the toggle button at the top right side of the page. 
-![](https://user-images.githubusercontent.com/29985169/93014886-65935580-f5bd-11ea-8438-ef6ffff62c5d.png)
+![](../img/darkthemelogs.png)
 
 
 
