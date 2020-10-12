@@ -20,6 +20,7 @@ nav:
   - Databases:
       - Database Support: databases/info.md
   - Monitoring:
+      - Project Monitoring: monitoring/projects.md
       - Application Monitoring: monitoring/appMetrics.md
 theme:
   name: material
