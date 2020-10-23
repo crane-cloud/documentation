@@ -8,6 +8,7 @@
 * `Authentication` - Dive deeper in SignUp, LogIn and Password Reset.
 * `Projects` - Explore possibilities of Updating and Deleting a project.
 * `Applications` - Guidelines on how to deploy various applications.
+* `Monitoring` - Insights on how to best understand the project and application metrics.
 
 ## About Crane Cloud
 Crane Cloud is managed cloud service platform that supports:
@@ -17,4 +18,4 @@ Crane Cloud is managed cloud service platform that supports:
 * Service scheduling
 * Auto scaling and replication
 
-Visit <http://staging.cranecloud.io/> today to get started.
+Visit <https://cranecloud.io/> today to get started.

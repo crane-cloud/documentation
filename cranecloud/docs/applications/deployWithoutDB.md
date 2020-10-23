@@ -9,7 +9,7 @@ Upon successful login into your Crane cloud account, and after successfully crea
 **User Actions:**
 
 1\. Drill into a project that you created of your choice and click the plus button in the top right corner of the application. This will pop up a modal containing a form that will help you deploy your application.
-![](../img/empty_project.png)
+![](../img/appsemptypage.png)
 
 2\. The deployment modal will popup for you to fill and deploy an application. 
 ![](../img/createAppForm.png)
@@ -20,6 +20,6 @@ In case your application was designed to require an external entry command to tr
 ![](../img/deploy_buttons.png)
 
 **IF** the deployment was successful, the page will automatically display your new app and a URL on which to access it.
-![](../img/app_img.png)
+![](../img/apps_page.png)
 
 These same steps can be used to deploy apps that don't require database support like React web Apps, and any other front end based apps. 
