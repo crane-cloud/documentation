@@ -17,7 +17,7 @@
 2. All that is required of you is to click the `Confirm Account` button in the email.
 
 ## Create Project
-1. To create a project, click the `Create button` on the top right corner of your applications' dashboard, to display create project Form.
+1. To create a project, click the `Create button` on the top right corner of your User dashboard, to display create project Form.
 ![](../img/projectsDashboard.png)
 
 2. It will pop up a modal containing a form to create a project. Let us use a case study: Create a Tensorflow project. 
@@ -31,10 +31,10 @@
     ![](../img/create_project_form.png)
 
 ## Access Project
-1. Navigate into your project to view a list of applications you created under that project.
-    ![](../img/apps_page.png)
+1. Navigate to your User Dashboard to view a list of projects you have.
+    ![](../img/user_projects.png)
 
-2. To access a particular application, click on the URL attached to its card. The green dot on the application card symbolizes that the application is running. 
+2. To access a particular project, click on the project card. 
 
 ## Create Application
 1. To create an application, you need click on a project card to drill into that project.  
