@@ -5,6 +5,25 @@
 
 2. Project names are only unique for a given user
 
+## Create A Project
+1. To create a project, navigate to the User dashboard, click on the `ADD` button at the top right hand side of the screen.
+   ![](../img/projectsDashboard.png) 
+
+2. Once the button is clicked, a modal containing a form to create a project. Let us use a case study: Create a Tensorflow project. 
+
+    - Select Location from available locations.
+    - Enter project name.
+    - Enter project Description.
+    - Click the `ADD` button to submit the form.
+    - The page will reload and display your newly created project. 
+    
+    ![](../img/create_project_form.png)
+
+3. Once the project has been successfully created it will show in the user dashboard.
+  ![](../img/user_projects.png)
+
+4. To access a particular project, click on the project card to drill in.
+
 ## Editing A Project
 
 1. To edit your project, click on the project card.
