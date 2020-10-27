@@ -11,14 +11,30 @@
 
 4. The registration confirmation link will lead you to your dashboard(Projects). If you are a return use, you will need to login to get to the dashbaord. 
 
-5. Create
-
 ## Email Confirmation
 1. Your account verification email will look like this below. 
 ![](../img/test_user.png)
 2. All that is required of you is to click the `Confirm Account` button in the email.
 
 ## Create Project
+1. To create a project, click the `Create button` on the top right corner of your User dashboard, to display create project Form.
+![](../img/projectsDashboard.png)
+
+2. It will pop up a modal containing a form to create a project. Let us use a case study: Create a Tensorflow project. 
+
+    - Select Location from available locations.
+    - Enter project name.
+    - Enter project Description.
+    - Click the `ADD` button to submit the form.
+    - The page will reload and display your newly created project. 
+    
+    ![](../img/create_project_form.png)
+
+## Access Project
+1. Navigate to your User Dashboard to view a list of projects you have.
+    ![](../img/user_projects.png)
+
+2. To access a particular project, click on the project card. 
 
 ## Create Application
 1. To create an application, you need click on a project card to drill into that project.  
