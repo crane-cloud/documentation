@@ -49,7 +49,7 @@
     - Enter the image url 
     - Submit the form.
     - The page will reload and display your newly created application. 
-    
+    metrics
     ![](../img/createAppForm.png)
 
 ## Access Application
@@ -57,3 +57,16 @@
     ![](../img/apps_page.png)
 
 2. To access a particular application, click on the URL attached to its card. The green dot on the application card symbolizes that the application is running. 
+
+## Monitor Project
+1. Navigate through your project and click on `METRICS` to access all the metrics through the side bar.
+    ![](https://user-images.githubusercontent.com/32802973/92147589-077bab00-ee24-11ea-9781-89d423c0a31a.png)
+
+2. To access particular metrics, click on the desired metrics in the side bar either CPU, Memory, storage or Network and they will be displayed.
+
+## Monitor Application
+1. Navigate through your project, select the application of interest and click on `METRICS` to access all the metrics through the side bar.
+
+2. To access specific app metrics, click on the desired metrics in the side bar either CPU, Memory, storage, Network or logs and they will be displayed.
+
+    ![](../img/logspage.png)
