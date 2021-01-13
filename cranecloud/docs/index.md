@@ -19,3 +19,5 @@ Crane Cloud is managed cloud service platform that supports:
 * Auto scaling and replication
 
 Visit <https://cranecloud.io/> today to get started.
+
+## [Medium Blog Articles](https://medium.com/cranecloud/)
