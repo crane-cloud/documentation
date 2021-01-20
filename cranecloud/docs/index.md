@@ -20,4 +20,6 @@ Crane Cloud is managed cloud service platform that supports:
 
 Visit <https://cranecloud.io/> today to get started.
 
-## [Medium Blog Articles](https://medium.com/cranecloud/)
+## Blog
+
+* A link to a collection of all Crane Cloud Medium Articles  [here.](https://medium.com/cranecloud/)
