@@ -11,14 +11,30 @@
 
 4. The registration confirmation link will lead you to your dashboard(Projects). If you are a return use, you will need to login to get to the dashbaord. 
 
-5. Create
-
 ## Email Confirmation
 1. Your account verification email will look like this below. 
 ![](../img/test_user.png)
 2. All that is required of you is to click the `Confirm Account` button in the email.
 
 ## Create Project
+1. To create a project, click the `Create button` on the top right corner of your User dashboard, to display create project Form.
+![](../img/projectsDashboard.png)
+
+2. It will pop up a modal containing a form to create a project. Let us use a case study: Create a Tensorflow project. 
+
+    - Select Location from available locations.
+    - Enter project name.
+    - Enter project Description.
+    - Click the `ADD` button to submit the form.
+    - The page will reload and display your newly created project. 
+    
+    ![](../img/create_project_form.png)
+
+## Access Project
+1. Navigate to your User Dashboard to view a list of projects you have.
+    ![](../img/user_projects.png)
+
+2. To access a particular project, click on the project card. 
 
 ## Create Application
 1. To create an application, you need click on a project card to drill into that project.  
@@ -33,7 +49,7 @@
     - Enter the image url 
     - Submit the form.
     - The page will reload and display your newly created application. 
-    
+    metrics
     ![](../img/createAppForm.png)
 
 ## Access Application
@@ -41,3 +57,16 @@
     ![](../img/apps_page.png)
 
 2. To access a particular application, click on the URL attached to its card. The green dot on the application card symbolizes that the application is running. 
+
+## Monitor Project
+1. Navigate through your project and click on `METRICS` to access all the metrics through the side bar.
+    ![](https://user-images.githubusercontent.com/32802973/92147589-077bab00-ee24-11ea-9781-89d423c0a31a.png)
+
+2. To access particular metrics, click on the desired metrics in the side bar either CPU, Memory, storage or Network and they will be displayed.
+
+## Monitor Application
+1. Navigate through your project, select the application of interest and click on `METRICS` to access all the metrics through the side bar.
+
+2. To access specific app metrics, click on the desired metrics in the side bar either CPU, Memory, storage, Network or logs and they will be displayed.
+
+    ![](../img/logspage.png)
