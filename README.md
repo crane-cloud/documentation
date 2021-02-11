@@ -18,7 +18,7 @@
 
      > `python3 -m virtualenv name-of-your-virtual-environment`
 
-**NOTE** Remeber to add the virtual environment to your gitignore.
+**NOTE** Remember to add the virtual environment to your gitignore.
 
 #### To activate the virtual evnvironment created run 
 
