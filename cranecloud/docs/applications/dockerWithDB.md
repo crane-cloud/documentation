@@ -1,7 +1,7 @@
-# Deploy An Application With Database Support Using A DockerHub Image 
-John Doe supports the backend API of his company and they have been trying to explore the Crane cloud solution as a platform to host their backend APIs that require database support. He has his App image stored in the DockerHub image registry. 
+# Deploy An Application Using A DockerHub Image 
+John Doe supports the backend API of his company and they have been trying to explore the Crane cloud solution as a platform to host their backend APIs. He has his App image stored in the DockerHub image registry. 
 
-Joe Doe would need to undertake the steps below to have the Flask API up and running with Postgres database support on Crane Cloud: 
+Joe Doe would need to undertake the steps below to have the Flask API on Crane Cloud: 
 
 **User Actions:**
 
@@ -25,8 +25,6 @@ Joe Doe would need to undertake the steps below to have the Flask API up and run
 
 * Enter and Add any App specific environment variables
 
-* Check the box for Database Support
-
 * Press the Proceed button
 
 4\. IF the application image is a private docker image:
@@ -47,18 +45,6 @@ Joe Doe would need to undertake the steps below to have the Flask API up and run
 
 * Enter and Add any App specific environment variables
 
-* Check the box for Database Support
-
-* ![](../img/dbFlavor.png)
-
-* Select the database Flavor for your application from the available options
-
-* Enter your prefered database name
-
-* Enter your prefered database user name
-
-* Enter your prefered database password
-
 * Press the Proceed button
 
-***Note:***  These steps apply to all Apps that require database support and whose images are stored on Dockerhub. Crane Cloud currently supports ***Postgres Database.***
+***Note:***  These steps apply to all Apps whose images are stored on Dockerhub.
