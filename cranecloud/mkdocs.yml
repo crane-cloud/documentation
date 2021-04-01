@@ -18,7 +18,7 @@ nav:
      - Deploy an app Image from GCR: applications/gcrWithDB.md
      - Delete deployed application: applications/deleteApp.md
   - Databases:
-      - Database Support: databases/info.md
+      - Databases: databases/database.md
   - Monitoring:
       - Project Monitoring: monitoring/projects.md
       - Application Monitoring: monitoring/appMetrics.md
