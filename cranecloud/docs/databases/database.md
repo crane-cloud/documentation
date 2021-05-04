@@ -27,7 +27,9 @@ Crane Cloud supports database as a service and this is done in just a few clicks
 ![](../img/db_error.png) 
 
 7. To access a particular database, click on the database card to drill in.
+![](../img/single_db.png)
 
+8. You can read instructions on how to access your newly created database as well as the provision to copy database credentials.
 
 ## Reseting A Database
 
