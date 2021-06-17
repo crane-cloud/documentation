@@ -62,7 +62,7 @@
 
 5. On clicking the button, a modal appears prompting you to go ahead and delete the project.
 
-    ![](../img/deleteProject3.png)
+    ![](../img/confirmDelete.png)
 
 *** Once you click the delete button, you will be unable to recover the deleted project. ***
 
