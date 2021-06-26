@@ -62,7 +62,7 @@
 
 5. On clicking the button, a modal appears prompting you to go ahead and delete the project.
 
-    ![](../img/deleteProject3.png)
+    ![](../img/confirmDelete.png)
 
 *** Once you click the delete button, you will be unable to recover the deleted project. ***
 
@@ -79,5 +79,5 @@
 3. When you try to create a project with the same name as one of your existing projects you will get this error.   
 ![](../img/projectError3.png)
 
-4. When the project name exceeds 22 characters, you will get the error below.
+4. When the project name exceeds 18 characters, you will get the error below.
 ![](../img/projectError4.png)

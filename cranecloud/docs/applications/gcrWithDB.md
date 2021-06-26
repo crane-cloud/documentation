@@ -1,5 +1,5 @@
-# Deploy An Application Image From GCR With Database Support
-Incase Joe Doe had his image stored on Google Container Registry (GCR) These are the steps that are quired to have the App with database support up and running.
+# Deploy An Application Image From GCR
+Incase Joe Doe had his image stored on Google Container Registry (GCR) These are the steps that are quired to have the App up and running.
 
 IF the application image is a GCR public image:
 
@@ -14,19 +14,6 @@ IF the application image is a GCR public image:
 * Enter the port on which you want your App to run (defaults to port 80)
 
 * Enter and Add any App specific environment variables
-
-* Check the box for Database Support
-
-* ![](../img/dbFlavor.png)
-
-* Select the database Flavor for your application from the available options
-
-* Enter your prefered database name
-
-* Enter your prefered database user name
-
-* Enter your prefered database password
-
 
 * Press the Proceed button
 
@@ -51,19 +38,6 @@ IF the application image is a GCR public image:
 
 * Enter and Add any App specific environment variables
 
-* Check the box for Database Support
-
-* ![](../img/dbFlavor.png)
-
-* Select the database Flavor for your application from the available options
-
-* Enter your prefered database name
-
-* Enter your prefered database user name
-
-* Enter your prefered database password
-
-
 * Press the Proceed button
 
-***Note:***  These steps apply to all Applications that require database support and whose images are stored on GCR. Crane Cloud currently supports ***Postgres Database.***
+***Note:***  These steps apply to all Applications whose images are stored on GCR.

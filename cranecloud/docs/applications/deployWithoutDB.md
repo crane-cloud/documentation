@@ -1,4 +1,4 @@
-# Deploy Application Without Database Support
+# Deploy Stand-alone Application
 Allan is a novice DevOps learner and wants to figure out how to deploy a simple Nginx Application.
 
 *How would he do it via his Crane cloud account?* 
@@ -16,7 +16,8 @@ Upon successful login into your Crane cloud account, and after successfully crea
 
 3\. Fill in the form with your application-specific information like Application Name, Number of replicas, Link to Public image of the Application on any image registry like Docker and Environment Variables that are specific to your application. 
 
-In case your application was designed to require an external entry command to trigger certain aspects of your application, then you should add the entry command. When the form is filled up, click proceed to deploy. Be sure not to check the Require DB field since your application doesn’t require it.
+In case your application was designed to require an external entry command to trigger certain aspects of your application, then you should add the entry command. When the form is filled up, click proceed to deploy. 
+
 ![](../img/deploy_buttons.png)
 
 **IF** the deployment was successful, the page will automatically display your new app and a URL on which to access it.

@@ -6,8 +6,9 @@
 
 * `QuickStart` - Steps to quickly get you to deploy an application.
 * `Authentication` - Dive deeper in SignUp, LogIn and Password Reset.
-* `Projects` - Explore possibilities of Updating and Deleting a project.
+* `Projects` - Explore possibilities of Creation, Updating and Deleting a project.
 * `Applications` - Guidelines on how to deploy various applications.
+* `Databases` - Guide on how to create and host a database.
 * `Monitoring` - Insights on how to best understand the project and application metrics.
 
 ## About Crane Cloud
