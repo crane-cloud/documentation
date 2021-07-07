@@ -17,7 +17,7 @@ Joe Doe would need to undertake the steps below to have the Flask API on Crane C
 
 * Select number of app replicas you want
 
-* Enter absolute URL to the docker image -- this is your dockerhub username/yourimage name in this example above it is "nginxdemos/hello"
+* Enter absolute URL to the docker image -- this is your dockerhub username/image_name in this example above it is "nginxdemos/hello"
 
 * Enter the entry command if any
 
