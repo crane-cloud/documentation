@@ -11,7 +11,7 @@ Upon successful login into your Crane cloud account, and after successfully crea
 1\. Drill into a project that you created of your choice and click the plus button in the top right corner of the application. This will pop up a modal containing a form that will help you deploy your application.
 ![](../img/appsemptypage.png)
 
-2\. The deployment modal will popup for you to fill and deploy an application. The Name field will be for your application name in the example it is "nginxapp", the number of replicas even when not selects defaults to 1. The image uri, is the docker hub image link, the first part is the docker hub username/image name and as in the example below "nginxdemos" is the dockerhub username and "hello" is the image name.
+2\. The deployment modal will popup for you to fill and deploy an application. The Name field will be for your application name. In the example, "nginxapp" is the name. The number of replicas is optional. If not specified, it defaults to 1. The image uri, is the docker hub image link. The first part of it is the docker hub username and the second part is the image name - thus the syntax [username]/{image_name]. In the example below, "nginxdemos" is the dockerhub username and "hello" is the image name.
 ![](../img/createAppForm.png)
 
 3\. Fill in the form with your application-specific information like Application Name, Number of replicas, Link to Public image of the Application on any image registry like Docker and Environment Variables that are specific to your application. 
