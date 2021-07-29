@@ -62,9 +62,8 @@ Crane Cloud supports database as a service and this is done in just a few clicks
 1. To reset a database, click a database from the database list.
 
 
-2. Once inside the database,an apps page appears similar to that one below.
+2. Once inside the database, at the bottom section similar to the one below.
 
-    ![](../img/single_db.png)
     ![](../img/single_db1.png)
 
 3. On the database settings page, click on the `RESET DATABASE` button on at bottom of the page. 
