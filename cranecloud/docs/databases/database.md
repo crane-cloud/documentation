@@ -28,17 +28,43 @@ Crane Cloud supports database as a service and this is done in just a few clicks
 
 7. To access a particular database, click on the database card to drill in.
 ![](../img/single_db.png)
+![](../img/single_db1.png)
 
 8. You can read instructions on how to access your newly created database as well as the provision to copy database credentials.
+
+## Change Database Password
+
+1. To change a database password, click a database from the database list.
+
+
+2. Once inside the database, look for a more options section at the bottom similar to that one below.
+
+    ![](../img/single_db1.png)
+
+3. On the database settings page, click on the `Change Password` button. 
+
+
+4. On clicking the button, a modal appears prompting you to go ahead and change the database password.
+    ![](../img/change_password.png)
+
+5. If the password entered is too short, the system will prompt you to enter a password of atleast 8 characters.
+![](../img/less_characters.png)
+
+6. If the password entered is too long, the system will prompt you to enter a password of atmost 32 characters.
+![](../img/too_long_password.png)
+
+7. If the passwords entered do not match, the system will prompt you to enter the same password.
+![](../img/password_mismatch.png)
+
 
 ## Reseting A Database
 
 1. To reset a database, click a database from the database list.
 
 
-2. Once inside the database,an apps page appears similar to that one below.
+2. Once inside the database, at the bottom section similar to the one below.
 
-    ![](../img/single_db.png)
+    ![](../img/single_db1.png)
 
 3. On the database settings page, click on the `RESET DATABASE` button on at bottom of the page. 
 
