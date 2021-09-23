@@ -69,5 +69,5 @@
 1. Navigate through your project, select the application of interest and click on `METRICS` to access all the metrics through the side bar.
 
 2. To access specific app metrics, click on the desired metrics in the side bar either CPU, Memory, storage, Network or logs and they will be displayed.
-
+    ![](../img/appMetrics.png)
     ![](../img/logspage.png)
