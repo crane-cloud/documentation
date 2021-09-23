@@ -50,7 +50,8 @@
     - Submit the form.
     - The page will reload and display your newly created application. 
     metrics
-    ![](../img/createAppForm.png)
+    ![](../img/createAppUpper.png)
+    ![](../img/createAppLower.png)
 
 ## Access Application
 1. Navigate into your project to view a list of applications you created under that project.
