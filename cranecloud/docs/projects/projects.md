@@ -60,15 +60,16 @@
 
 3. On the apps page, click on the settings icon on the bottom left corner of the page.
 
-   ![](../img/settings_icon.png)
+   ![](../img/projectSettings.png)
 
 4. That takes you to the page below that has a "Delete Project" button. Click the _Delete Project_ button.
 
    ![](../img/projectSettingsPage.png)
 
-5. On clicking the button, a modal appears prompting you to go ahead and delete the project.
+5. On clicking the button, a modal appears prompting you to go ahead retype the project name after which the delete but will be enabled for you to commence with deleting the project.
 
-   ![](../img/confirmDelete.png)
+   ![](../img/projectDelete.png)
+   ![](../img/projectDeleteEnabled.png)
 
 **_ Once you click the delete button, you will be unable to recover the deleted project. _**
 
