@@ -6,17 +6,14 @@ Once inside your project select the individual application. Click the settings l
 You can update the image uri to change the app deployment or you can select a new number of appliction replicas.
 
 ![](../img/appUpdateReplicas.png)
+
+Incase you want to update the app to a different image, you can update the image uri. The new image can be a private imge in which case you click the checkbox  and fill in the necessary details
+ ![](../img/privateSection.png)
+
+You can also update the application port and also add commands.
+
 ![](../img/appUpdate4.png)
 ![](../img/appUpdate3.png)
 
-Click the Delete button and a modal will appear similar to the one below.
 
-![](../img/appDelete1.png)
-
-Type the app name and the delete button will be enabled.
-
-![](../img/appDelete2.png)
-
-Click the *Delete* button in red to effect the delete.
-
-The application will be deleted.
+The application will be updated.
