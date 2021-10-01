@@ -40,6 +40,7 @@
 1. To create an application, you need click on a project card to drill into that project.  
 
 2. Then, click the `Create button` on the top right corner of your applications' dashboard, to display create application Form.
+
 ![](../img/appDashboard.png)
 
 3. It will pop up a modal containing a form to create an application. Let us use a case study: Deploy a simple Nginx hello world application, with a public image `nginxdemos/hello` on Dockerhub. 
@@ -50,16 +51,21 @@
     - Submit the form.
     - The page will reload and display your newly created application. 
     metrics
-    ![](../img/createAppForm.png)
+
+    ![](../img/createAppUpper.png)
+
+    ![](../img/createAppLower.png)
 
 ## Access Application
 1. Navigate into your project to view a list of applications you created under that project.
+
     ![](../img/apps_page.png)
 
 2. To access a particular application, click on the URL attached to its card. The green dot on the application card symbolizes that the application is running. 
 
 ## Monitor Project
 1. Navigate through your project and click on `METRICS` to access all the metrics through the side bar.
+
     ![](https://user-images.githubusercontent.com/32802973/92147589-077bab00-ee24-11ea-9781-89d423c0a31a.png)
 
 2. To access particular metrics, click on the desired metrics in the side bar either CPU, Memory, storage or Network and they will be displayed.
@@ -68,5 +74,6 @@
 1. Navigate through your project, select the application of interest and click on `METRICS` to access all the metrics through the side bar.
 
 2. To access specific app metrics, click on the desired metrics in the side bar either CPU, Memory, storage, Network or logs and they will be displayed.
+    ![](../img/appMetrics.png)
 
     ![](../img/logspage.png)
