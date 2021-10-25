@@ -3,12 +3,16 @@
 Once inside your project select the individual application. Click the settings link on the bottom left of the page and a page will appear similar to that below.
 ![](../img/appUpdate2.png)
 
+## Image URI
+
 You can update the image uri to change the app deployment or you can select a new number of appliction replicas.
 
 ![](../img/appUpdateReplicas.png)
 
 Incase you want to update the app to a different image, you can update the image uri. The new image can be a private imge in which case you click the checkbox  and fill in the necessary details
  ![](../img/privateSection.png)
+
+## Environment Variables
 
 In case you forgot to add environment variables to your application you can add them in the *Environment Vars* section.
 
@@ -24,6 +28,7 @@ Click the update button and the environment variables would be added to the appl
 
 In case an environment variable was added with a wrong value or need arises for change of an environment variable; then re-enter the key for that environment variable and enter the new value. The update will update the value.
 
+## Port and Command
 
 You can also update the application port and also add commands.
 
