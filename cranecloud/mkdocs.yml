@@ -18,6 +18,7 @@ nav:
      - Deploy an app Image from GCR: applications/gcrWithDB.md
      - Update an app deployment: applications/updateApp.md
      - Delete deployed application: applications/deleteApp.md
+     - Add Custom Domain: applications/customDomain.md
   - Databases:
       - Databases: databases/database.md
   - Monitoring:
