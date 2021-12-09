@@ -4,7 +4,7 @@ You can add a custom domain to your application. This functionality is only avai
 
 ## Beta Program
 
-To become a part of our beta users kindly reach out and make your request known at `dorothy@cranecloud.io` in the email make the subject `Beta Program`.
+To become a part of our beta users kindly reach out and make your request known at `info@cranecloud.io` in the email make the subject `Beta Program`.
 
 ## Custom Domain at creation
 
