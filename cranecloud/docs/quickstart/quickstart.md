@@ -77,3 +77,5 @@
     ![](../img/appMetrics.png)
 
     ![](../img/logspage.png)
+## Add your domain to application
+1. To add your domain to your hosted application, kindly reach out to us at `dorothy@cranecloud.io` and checkout instructions under applications.
