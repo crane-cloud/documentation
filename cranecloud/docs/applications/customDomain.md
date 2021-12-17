@@ -87,13 +87,6 @@ You can view instructions on how to set up your A-Records and what IPs you need 
 
 **Note: The steps to edit A records vary across different providers. A simple google search on how to edit A - Records of your provider should give you results.**
 
-
-
-
-
-
-
-
 ## Revert from custom domain
 
 You can revert from custom domain by clicking on the `Revert` button. This will revert from a custom domain to a default domain that is a Creane Cloud issued URL.
