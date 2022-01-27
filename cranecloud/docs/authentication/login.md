@@ -11,3 +11,6 @@ IF any field is left blank, the page throws an error saying “Please enter your
 IF you entered wrong credentials, the page shall throw an error saying **Incorrect email or password** In that case, double-check your credentials and try again.  In the event that you don’t recall your password, click the Forgot password link just above the login button reset your password.
 
 IF all the entered credentials are right, then you shall be redirected to your account dashboard.
+
+## Github
+You can also log into your Crane Cloud account with Github. This requires that you have a Github account and have already registered and verified your Crane Cloud account.
