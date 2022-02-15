@@ -3,7 +3,7 @@
 ![](../img/get_started.png)
 
 Alternatively you can click the `Create an account` link on the *Login page.*
-![](../img/login.png)
+![](../img/login_page.png)
 
 2\. The page below will appear with a form, go ahead to fill it
     ![](../img/clean_register.png)
