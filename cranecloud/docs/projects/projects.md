@@ -88,3 +88,29 @@
 
 4. When the project name exceeds 18 characters, you will get the error below.
    ![](../img/projectError4.png)
+
+
+## Project Billing
+
+1. To get your project billing information, while inside a project click `Billing` on the sidebar.
+
+   ![](../img/BillingSideBar.png)
+
+2. On the right side of the sidebar a similar page will appear showing the available metrics for the project.
+
+   ![](https://user-images.githubusercontent.com/69305400/170105260-52d8aa77-4213-4851-9fd9-44b180c84ab9.png)
+
+3. In case you need to make payment for your app usage then click the pay bill button. Note the button remains disabled util a particular threshold is attained.
+
+   ![](https://user-images.githubusercontent.com/69305400/179727501-fba11575-d660-4569-a932-eb11bc61e538.png)
+
+4. After selecting the payment methods you can go ahead to make payment and you will recieve an email showing for your payment receipt. In the dashboard you can be able to view transactions, invoices and receipts and all these can be downloaded. Below is a example of a receipt with the provision of being able to download it as a PDF.
+
+   ![](https://user-images.githubusercontent.com/32802973/177199923-1fc721fa-e02f-475d-9777-33bb02179eb2.png)
+
+   ![](https://user-images.githubusercontent.com/32802973/177199908-397dc1c5-1210-4efc-9bcf-326b77fa0c0f.png)
+
+
+5. You can pay using assigned credits and your credits can be viewed on the page too.
+
+   ![](../img/Credits.png)
