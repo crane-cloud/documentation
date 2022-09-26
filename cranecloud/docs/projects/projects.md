@@ -13,10 +13,12 @@
 
 2. Once the button is clicked, a modal containing a form to create a project. Let us use a case study: Create a Tensorflow project.
 
-   - Select Location from available locations.
+   - Select Datacenter location from available locations.
    - Enter project name.
+   - Enter project's organisation
+   - Enter project type
    - Enter project Description.
-   - Click the `ADD` button to submit the form.
+   - Click the `Create Project` button to submit the form.
    - The page will reload and display your newly created project.
 
    ![](../img/create_project_form.png)
@@ -89,7 +91,6 @@
 4. When the project name exceeds 18 characters, you will get the error below.
    ![](../img/projectError4.png)
 
-
 ## Project Billing
 
 1. To get your project billing information, while inside a project click `Billing` on the sidebar.
@@ -109,7 +110,6 @@
    ![](https://user-images.githubusercontent.com/32802973/177199923-1fc721fa-e02f-475d-9777-33bb02179eb2.png)
 
    ![](https://user-images.githubusercontent.com/32802973/177199908-397dc1c5-1210-4efc-9bcf-326b77fa0c0f.png)
-
 
 5. You can pay using assigned credits and your credits can be viewed on the page too.
 

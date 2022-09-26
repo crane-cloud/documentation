@@ -1,15 +1,15 @@
 # Quickstart
 
 ## Registration
-1. Visit <https://cranecloud.io/> and click the `GET STARTED Button`
+1. Visit <https://cranecloud.io/> and click the `START FREE TRIAL`
 ![](../img/get_started.png)
 
-2. Fill in all the required information, agree to terms and conditions and click `Register`
+2. Fill in all the required information, agree to terms and conditions and click `Register` or signup with Github.
 ![](../img/register.png)
 
-3. Upon successfull registration a confirmation link is sent to the email address you registered with, head over to your email and click the link. Remember to check the junk folder as well. 
+3. Upon successfull registration a confirmation link is sent to the email address you registered with, head over to your email and click the link. Remember to check the spam folder in case you can see the email. 
 
-4. The registration confirmation link will lead you to your dashboard(Projects). If you are a return use, you will need to login to get to the dashbaord. 
+4. The registration confirmation link will lead you to your dashboard(Projects). If you are a return use, you will need to login to get to the dashboard. 
 
 ## Email Confirmation
 1. Your account verification email will look like this below. 
@@ -22,13 +22,16 @@
 
 2. It will pop up a modal containing a form to create a project. Let us use a case study: Create a Tensorflow project. 
 
-    - Select Location from available locations.
+    - Select Datacenter location from available locations.
     - Enter project name.
+    - Enter project's organisation
+    - Enter project type
     - Enter project Description.
-    - Click the `ADD` button to submit the form.
+    - Click the `Create Project` button to submit the form.
     - The page will reload and display your newly created project. 
     
     ![](../img/create_project_form.png)
+    ![](../img/create_project_form2.png)
 
 ## Access Project
 1. Navigate to your User Dashboard to view a list of projects you have.
@@ -47,14 +50,15 @@
 
     - Enter the application name 
     - Select number of replicas for your app.
-    - Enter the image url 
+    - Enter the image url -- for example docker image url could be `nginxdemos/hello`
+    - Entry command if any
+    - Enter port if applicable 
+    - Enter environment variables if any
     - Submit the form.
     - The page will reload and display your newly created application. 
     metrics
 
     ![](../img/createAppUpper.png)
-
-    ![](../img/createAppLower.png)
 
 ## Access Application
 1. Navigate into your project to view a list of applications you created under that project.
