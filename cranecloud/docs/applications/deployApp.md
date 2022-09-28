@@ -16,6 +16,8 @@ Usecases for Crane Cloud deployments:
 
 * Tensorflow Machine learning platform
 
+* All containerized applications
+
 ## Application Naming Convention 
 
 1. All application names should start with a letter.
