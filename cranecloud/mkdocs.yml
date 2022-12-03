@@ -19,6 +19,11 @@ nav:
       - Update an app deployment: applications/updateApp.md
       - Delete deployed application: applications/deleteApp.md
       - Add Custom Domain: applications/customDomain.md
+  - Deployment Guides:
+      - Deploy a React App: guides/deployReactApp.md
+      - Deploy a Node App: guides/deployNodeApp.md
+      - Deploy a Python App: guides/deployPythonApp.md
+      - Deploy a Static Website: guides/deployStaticWebsite.md
   - Databases:
       - Databases: databases/database.md
   - Monitoring:
@@ -30,6 +35,7 @@ theme:
   logo: img/logo.svg
   font:
     text: Nunito
+    code: Nunito
   palette:
     scheme: slate
     primary: light blue
