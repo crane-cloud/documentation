@@ -22,8 +22,6 @@ nav:
   - Deployment Guides:
       - Deploy a React App: guides/deployReactApp.md
       - Deploy a Node App: guides/deployNodeApp.md
-      - Deploy a Python App: guides/deployPythonApp.md
-      - Deploy a Static Website: guides/deployStaticWebsite.md
   - Databases:
       - Databases: databases/database.md
   - Monitoring:
