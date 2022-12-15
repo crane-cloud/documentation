@@ -22,6 +22,7 @@ nav:
   - Deployment Guides:
       - Deploy a React App: guides/deployReactApp.md
       - Deploy a Node App: guides/deployNodeApp.md
+      - Deploy a Flask App: guides/deployFlaskApp.md
   - Databases:
       - Databases: databases/database.md
   - Monitoring:
