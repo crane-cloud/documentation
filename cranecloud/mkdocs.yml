@@ -14,6 +14,7 @@ nav:
      - Application Containerization: applications/appContainerization.md
      - Application Deployment: applications/deployApp.md
      - Deploy stand-alone Application: applications/deployWithoutDB.md
+     - Deploy with GitHub Actions : applications/deployWithGithubActions.md
      - Deploy an app Image from Docker: applications/dockerWithDB.md
      - Deploy an app Image from GCR: applications/gcrWithDB.md
      - Update an app deployment: applications/updateApp.md
