@@ -30,6 +30,8 @@ nav:
   - Monitoring:
       - Project Monitoring: monitoring/projects.md
       - Application Monitoring: monitoring/appMetrics.md
+  - Self Managed Gitlab Configuration:
+      - Self Managed Gitlab Configuration: gitlab/gitlab.md
 theme:
   name: material
   favicon: img/favicon.png
