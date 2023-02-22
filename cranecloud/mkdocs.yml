@@ -21,6 +21,7 @@ nav:
       - Add Custom Domain: applications/customDomain.md
       - Deploy an app using the MIRA service: applications/deployWithMira.md
   - Deployment Guides:
+      - Deploy an HTML App: guides/deployHtmlApp.md
       - Deploy a React App: guides/deployReactApp.md
       - Deploy a Node App: guides/deployNodeApp.md
       - Deploy a Flask App: guides/deployFlaskApp.md
