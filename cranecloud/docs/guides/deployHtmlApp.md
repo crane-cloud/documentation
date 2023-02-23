@@ -1,7 +1,5 @@
 Getting an application running on Crane Cloud is essentially working out how to package it as a deployable image. Once packaged it can be deployed to the Crane Cloud platform.
 
-In this guide, we will learn how to containerize a sample HTML Application using Docker and then deploy to Crane Cloud.
-
 In this guide, we will learn how to containerize a sample HTML Application using Docker and then deploy to Crane Cloud. See [demo here](https://my-html-app-578060fa-3901-4464-8f3d.cranecloud.io/)
 
 ## Prerequisites
@@ -18,7 +16,7 @@ Before we begin, we assume that you already have the following:
 
 In our application's directory, we shall create a `Dockerfile` and in it, let us write the following commands
 
-```js
+```
 # Use an official nginx image as the base image
 FROM nginx:alpine
 
