@@ -44,4 +44,4 @@ Once the CI file is committed and approved, GitLab will launch the process. To c
 We can go to the details of this task by clicking on the pending button or build number #1. After a while, the task should be built and tested.
 
 ## Cloning a project
-To clone a project, Consider copying the url in the browser search bar at the top while in the root view / initial view of the project and run the command as follows eg `git clone https://gitlab-ce-32b64b3f-fc91-4331-bf7e.cranecloud.io/Alex/Flipper.git` where `https://gitlab-ce-32b64b3f-fc91-4331-bf7e.cranecloud.io/Alex/Flipper` is the copied url in your editor terminal instead of using gitlab's derived clone command 
+To clone a project, Consider copying the url in the browser search bar at the top while in the root view / initial view of the project and run the command as follows eg `git clone https://gitlab-ce-32b64b3f-fc91-4331-bf7e.cranecloud.io/Alex/Flipper.git` where `https://gitlab-ce-32b64b3f-fc91-4331-bf7e.cranecloud.io/Alex/Flipper` is the copied url, in your editor terminal instead of using gitlab's derived clone command 
