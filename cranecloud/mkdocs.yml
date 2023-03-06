@@ -11,21 +11,35 @@ nav:
   - Projects:
       - Projects: projects/projects.md
   - Applications:
-     - Application Containerization: applications/appContainerization.md
-     - Application Deployment: applications/deployApp.md
-     - Deploy stand-alone Application: applications/deployWithoutDB.md
-     - Deploy an app Image from Docker: applications/dockerWithDB.md
-     - Deploy an app Image from GCR: applications/gcrWithDB.md
-     - Update an app deployment: applications/updateApp.md
-     - Delete deployed application: applications/deleteApp.md
-     - Add Custom Domain: applications/customDomain.md
+      - Application Containerization: applications/appContainerization.md
+      - Application Deployment: applications/deployApp.md
+      - Deploy stand-alone Application: applications/deployWithoutDB.md
+      - Deploy an app Image from Docker: applications/dockerWithDB.md
+      - Deploy an app Image from GCR: applications/gcrWithDB.md
+      - Update an app deployment: applications/updateApp.md
+      - Delete deployed application: applications/deleteApp.md
+      - Add Custom Domain: applications/customDomain.md
+      - Deploy an app using the MIRA service: applications/deployWithMira.md
+  - Deployment Guides:
+      - Deploy an HTML App: guides/deployHtmlApp.md
+      - Deploy a React App: guides/deployReactApp.md
+      - Deploy a Node App: guides/deployNodeApp.md
+      - Deploy a Flask App: guides/deployFlaskApp.md
+      - Deploy a Laravel App: guides/deployLaravelApp.md
   - Databases:
       - Databases: databases/database.md
   - Monitoring:
       - Project Monitoring: monitoring/projects.md
       - Application Monitoring: monitoring/appMetrics.md
+  - Self Managed Gitlab Configuration:
+      - Self Managed Gitlab Configuration: gitlab/gitlab.md
 theme:
   name: material
+  favicon: img/favicon.png
+  logo: img/logo.svg
+  font:
+    text: Nunito
+    code: Nunito
   palette:
     scheme: slate
     primary: light blue

@@ -6,11 +6,11 @@
 
 * `QuickStart` - Steps to quickly get you to deploy an application.
 * `Authentication` - Dive deeper in SignUp, LogIn and Password Reset.
-* `Projects` - Explore possibilities of Creation, Updating and Deleting a project.
+* `Projects` - Explore possibilities of Creation, Updating, Deleting and project billing.
 * `Applications` - Guidelines on how to deploy various applications.
-* `Databases` - Guide on how to create and host a database.
+* `Databases` - Guide on how to create and access a database.
 * `Monitoring` - Insights on how to best understand the project and application metrics.
-
+* `Gitlab` - Self Managed Gitlab Configuration
 ## About Crane Cloud
 Crane Cloud is managed cloud service platform that supports:
 
@@ -18,6 +18,7 @@ Crane Cloud is managed cloud service platform that supports:
 * Application Monitoring
 * Service scheduling
 * Auto scaling and replication
+* Database provisioning
 
 Visit <https://cranecloud.io/> today to get started.
 
