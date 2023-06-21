@@ -38,17 +38,64 @@ After the initial configuration, we can create our first project. To do this, go
 
 Figure 3: Project creation page
 
+
+Optionally, creating a blank project you are required to type a name for your project, choose the visibility level and also the project configuration. After all the creation descriptions you click the `create project` button.
+
+![](../img/create-project.png)
+
+Figure 4: Project description
+
+
+## Importing a project
+
+You can alternatively import a project by selecting `Import project`, then providing the Git repository URL address. After a while, your first repository will be copied to your Gitlab. This is another way to create a project.
+
+![](../img/import-project.png)
+
+Figure 5: Import Project 
+
+
+## Cloning a Project
+
+You can clone a project from to your local computer, or to a codespace, to make it easier to add or remove files, and  push larger commits. When you clone a project, you copy the project from Gitlab to your local machine, or to a remote virtual machine when you create a codespace. 
+
+## Cloning steps
+1. On Gitlab navigate to the main page of the project.
+2. Above the list of files, click  `Clone`.
+
+    ![](../img/clone.png)
+
+    Figure 6: `Clone` dropdown menu
+
+3. Copy the URL for the project.
+
+    ![](../img/clone url.png)
+
+    Figure 6: URL used to clone a project
+
+
+    - To clone the project using HTTPS, besides "HTTPS", click the clipboard to copy the url.
+
+    - To clone the project using an SSH key,  click the clipboard besides SSH.
+
+4. Open Terminal.
+
+5. Change the current working directory to the location where you want the cloned directory.
+
+6. Type `git clone`, and then paste the URL you copied earlier.
+
+```bash
+git clone https://gitlab.cranecloud.io/techies/computer-science/csc-class-assignment-101.git
+```
+NOTE: When cloning the project from the gitlab, you are prompted to comfirm with your username and then later your password. This is to ensure a privacy and code security.
+
 ## Pushing code to a project
 
-To push code from your local computer to a GitLab project, you need to have a GitLab account and a project created. If you don't have an account, you can create one [here](https://gitlab.cranecloud.io/users/sign_up) and if you don't have a project, you can create one [here](https://gitlab.cranecloud.io/projects/new) as shown in Figure 5.
+To push code from your local computer to a GitLab project, you will need to have access to a project. Simply create a project on [Gitlab.](https://gitlab.cranecloud.io/projects/new) as shown in Figure 3. If you already have a project to push code to then you follow the steps below.
 
-![](../img/createProject.png)
+Open your terminal and navigate to the directory that contains your code with the `cd` command and run then following commands :
 
-Figure 4: Creating a project
-
-Once you have an account and a project, you can push code to the project by following the steps below.
-
-- Open your terminal and navigate to the directory that contains your code and run the following command
+ - Initialize the current directory has a git repository. It means in this local project you can now run the git commands.
 
 ```bash
 git init
@@ -79,35 +126,6 @@ NOTE: Replace `username` with your username and `projectname` with the name of t
 ```bash
 git push -u origin master
 ```
+![](../img/push.png)
 
-## Importing a project
-
-You can alternatively import a project by selecting `Import project`, then providing the Git repository URL address. After a while, your first repository will be copied to your Gitlab.
-
-![](../img/gitlab1.png)
-
-Figure 5: Project Import
-
-## Creating a CI/CD pipeline
-
-To create a CI/CD pipeline for the project, click the main menu on the left, CI/CD, and then Editor. An option to create a `.gitlab-ci.yml` file, which will contain our pipeline definitions, will appear on the screen. This file will be created in the Git repository.
-
-Once the CI file is committed and approved, GitLab will launch the process. To check the results, go to CI/CD -> pipelines in the menu on the left. On the screen, we should see that our first task has already been started.
-
-We can go to the details of this task by clicking on the pending button or build number #1. After a while, the task should be built and tested.
-
-## Cloning a Project
-
-To clone a project, consider copying the url in the browser search bar at the top while in the root view/initial view of the project as shown below
-
-![](../img/cloneURL.png)
-
-Figure 6: URL used to clone a project
-
-Then open your terminal and navigate to the directory where you want to clone the project and run the following command
-
-```bash
-git clone https://gitlab.cranecloud.io/username/projectname.git
-```
-
-NOTE: Replace `username` with your username and `projectname` with the name of the project you want to clone.
+Figure 7: Pushing local changes to remote project on Gitlab.
