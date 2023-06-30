@@ -2,7 +2,7 @@
 
 ## Registration
 1. Visit <https://cranecloud.io/> and click the `START FREE TRIAL`
-![](../img/get_started.png)
+![](../img/update_get_started.png)
 
 2. Fill in all the required information, agree to terms and conditions and click `Register` or signup with Github.
 ![](../img/register.png)
