@@ -21,7 +21,7 @@
    - Click the `Create Project` button to submit the form.
    - The page will reload and display your newly created project.
 
-   ![](../img/create_project_form.png)
+   ![](../img/updated_create_project_form.png)
 
 3. Once the project has been successfully created it will show in the user dashboard.
    ![](../img/user_projects.png)
