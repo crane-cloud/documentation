@@ -30,8 +30,7 @@
     - Click the `Create Project` button to submit the form.
     - The page will reload and display your newly created project. 
     
-    ![](../img/create_project_form.png)
-    ![](../img/create_project_form2.png)
+    ![](../img/create_proj_form.png)
 
 ## Access Project
 1. Navigate to your User Dashboard to view a list of projects you have.
