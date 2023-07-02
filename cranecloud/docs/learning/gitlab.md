@@ -41,7 +41,7 @@ Figure 3: Project creation page
 
 Optionally, creating a blank project you are required to type a name for your project, choose the visibility level and also the project configuration. After all the creation descriptions you click the `create project` button.
 
-![](../img/create-project.png)
+![](../img/create_proj_form.png)
 
 Figure 4: Project description
 

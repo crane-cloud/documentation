@@ -6,7 +6,7 @@ Alternatively you can click the `Create an account` link on the *Login page.*
 ![](../img/login_page.png)
 
 2\. The page below will appear with a form, go ahead to fill it
-    ![](../img/register.png)
+    ![](../img/register-image)
 
 In case you do not fill out any fields in the form, this error appears
 ![](../img/all_fields_error.png)
