@@ -10,6 +10,7 @@ nav:
       - Forgot Password: authentication/forgotPassword.md
   - Projects:
       - Projects: projects/projects.md
+      - Project Collaboration: projects/projectCollaboration.md
   - Applications:
       - Application Containerization: applications/appContainerization.md
       - Application Deployment: applications/deployApp.md
