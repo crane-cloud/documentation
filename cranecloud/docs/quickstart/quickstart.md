@@ -2,10 +2,10 @@
 
 ## Registration
 1. Visit <https://cranecloud.io/> and click the `START FREE TRIAL`
-![](../img/get_started.png)
+![](../img/getstarted.png)
 
 2. Fill in all the required information, agree to terms and conditions and click `Register` or signup with Github.
-![](../img/register.png)
+![](../img/register-image.png)
 
 3. Upon successfull registration a confirmation link is sent to the email address you registered with, head over to your email and click the link. Remember to check the spam folder in case you can see the email. 
 
@@ -30,8 +30,7 @@
     - Click the `Create Project` button to submit the form.
     - The page will reload and display your newly created project. 
     
-    ![](../img/create_project_form.png)
-    ![](../img/create_project_form2.png)
+    ![](../img/create_proj_form.png)
 
 ## Access Project
 1. Navigate to your User Dashboard to view a list of projects you have.

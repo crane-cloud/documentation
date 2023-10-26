@@ -21,7 +21,7 @@
    - Click the `Create Project` button to submit the form.
    - The page will reload and display your newly created project.
 
-   ![](../img/create_project_form.png)
+   ![](../img/create_proj_form.png)
 
 3. Once the project has been successfully created it will show in the user dashboard.
    ![](../img/user_projects.png)
@@ -44,11 +44,19 @@
 
 4. The project settings page will appear.
 
-   ![](../img/projectSettingsPage.png)
+   ![](../img/ProjectSettings1.png)
+   ![](../img/ProjectSettings2.jpeg)
 
 5. You can choose to edit the project name or description.
 
    ![](../img/projectUpdateModal.png)
+
+## Disabling A Project
+
+1. You can disable a project, this will in turn put a pause to all project resources.
+
+   ![](../img/disable_project.png)
+   ![](../img/project_disable.png)
 
 ## Deleting A Project
 
@@ -66,7 +74,7 @@
 
 4. That takes you to the page below that has a "Delete Project" button. Click the _Delete Project_ button.
 
-   ![](../img/projectSettingsPage.png)
+   ![](../img/ProjectSettings2.jpeg)
 
 5. On clicking the button, a modal appears prompting you to go ahead retype the project name after which the delete but will be enabled for you to commence with deleting the project.
 
