@@ -6,6 +6,8 @@ To update your application's settings, locate and select your application from t
 
 ![](../img/appSettingsPage.png)
 
+Figure 1: The Application Settings Page
+
 ## General Details Section
 
 Here, you will find the essential information about your application, including the Project Name, Application Name, Alias, Status, Age, and the Current Revision. This tab provides a quick summary of your application's current state and history.
@@ -13,6 +15,8 @@ Here, you will find the essential information about your application, including 
 ## Image Settings Section
 
 ![](../img/imageSettings.png)
+
+Figure 2: Image Settings
 
 This section lets you configure the properties of the container image your application uses and here you can:
 
@@ -30,6 +34,8 @@ After updating the necessary fields, you would click the `Update` button to appl
 
 ![](../img/environmentAndPorts.png)
 
+Figure 3: Environment and Ports
+
 This section is essential for customizing your application's runtime environment. Here's how it works:
 
 - `Environment Variables`: These are key-value pairs that affect the behavior of your application. You can set configuration options, such as API keys, database connections, or any other service credentials that your application needs to function properly. To add a new variable, enter the key in the `Key` field, the corresponding value in the `Value` field, and click `Add`.
@@ -44,6 +50,8 @@ After configuring these settings, pressing the `Update` button will apply the ch
 
 ![](../img/domainAndUrls.png)
 
+Figure 4: Domain and URLs
+
 Under this section you can manage how your application is accessed via the web. It includes:
 
 - `Application Link`: This is the primary URL where users can access your application. It is typically a subdomain of the hosting service's domain, as shown in the example `https://my-application-...cranecloud.io`.
@@ -57,6 +65,8 @@ After entering a custom domain, you would click `Update` to apply the changes. I
 ## Application Revisions
 
 ![](../img/appRevisionsSection.png)
+
+Figure 5: Application Revisions Section
 
 Application Revisions are a vital component of the application lifecycle management. The above section allows you to:
 
