@@ -10,8 +10,9 @@ Joe Doe would need to undertake the steps below to have the Flask API on Crane C
 ![](../img/appDashboard.png)
 
 2\. A modal containing the App deployment form will then pop up.
-![](../img/createAppUpper.png)
-![](../img/createAppLower.png)
+![](../img/deployapp.png)
+
+
 
 3\. IF the application image is a docker public image:
 

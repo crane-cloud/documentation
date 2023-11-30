@@ -6,13 +6,13 @@ Crane Cloud supports database as a service and this is done in just a few clicks
 
 2. Under the navigation sidebar select databases.
 
-    ![](../img/sidebar_db.png)
+    ![](../img/db_selected.png)
 
 3. Click on the `ADD` button at the top right hand side of the screen.
-![](../img/no_databases.png) 
+![](../img/create_db.png) 
 
 4. Once the button is clicked, a page containing a form to create a database.
-![](../img/database_form.png)
+![](../img/db_form.png)
 
 5. Let us use a case study: Create a MYSQL database. 
 

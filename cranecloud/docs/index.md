@@ -1,6 +1,6 @@
 # Welcome to Crane Cloud
 
-![](/img/landingPage.png)
+![](/img/getstarted.png)
 
 ## Documentation Overview
 
