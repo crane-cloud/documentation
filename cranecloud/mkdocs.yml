@@ -21,6 +21,7 @@ nav:
       - Delete deployed application: applications/deleteApp.md
       - Add Custom Domain: applications/customDomain.md
       - Deploy an app using the MIRA service: applications/deployWithMira.md
+      - Microservices: applications/microservices.md
   - Deployment Guides:
       - Deploy an HTML App: guides/deployHtmlApp.md
       - Deploy a React App: guides/deployReactApp.md
