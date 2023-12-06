@@ -99,7 +99,7 @@
 4. When the project name exceeds 18 characters, you will get the error below.
    ![](../img/projectError4.png)
 
-## Project Billing
+<!-- ## Project Billing
 
 1. To get your project billing information, while inside a project click `Billing` on the sidebar.
 
@@ -121,4 +121,4 @@
 
 5. You can pay using assigned credits and your credits can be viewed on the page too.
 
-   ![](../img/Credits.png)
+   ![](../img/Credits.png) -->
