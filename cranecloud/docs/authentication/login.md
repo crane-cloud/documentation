@@ -1,6 +1,6 @@
 ## Login
 
-1\. Browse this URL <https://app.cranecloud.io/login> to access the Crane Cloud login portal, similar to the one below
+1\. Browse this URL <https://app.cranecloud.io> to access the Crane Cloud login portal, similar to the one below
 ![](../img/loginScreen.png)
 
 Enter your email address and password, then click LOGIN
