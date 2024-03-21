@@ -1,93 +1,78 @@
-# DATABASE
+# Databases on Crane Cloud
+
 Crane Cloud supports database as a service and this is done in just a few clicks.
 
 ## Create A Database
-1. To create a database, navigate to the User dashboard, Select a Project you want to create a database in.
 
-2. Under the navigation sidebar select databases.
+1. Navigate under a given project and proceed to the sidebar to select `Databases`
 
-    ![](../img/db_selected.png)
+2. Click on the `+ New Database` button at the top right hand side of the screen.
 
-3. Click on the `ADD` button at the top right hand side of the screen.
-![](../img/create_db.png) 
+   ![](../img/createDatabasePage.png)
 
-4. Once the button is clicked, a page containing a form to create a database.
-![](../img/db_form.png)
+Once the button is clicked, a page containing a form to create a database will be shown as below
 
-5. Let us use a case study: Create a MYSQL database. 
+![](../img/createDatabaseScreen.png)
 
-    - Select database type from drop-down.
-    - Click the `CREATE` button to submit the form.
-    - The page will reload and display your newly created database.
-    - Once the database has been successfully created it will show in the user dashboard.
-    
-    ![](../img/newly_created.png)
+- Select database type from drop-down.
+- Click the `Create` button to submit the form.
+- The page will reload and display your newly created database.
+- Once the database has been successfully created it will show in the user dashboard.
 
-6. Incase you did not select a Database type you will get an error message.
-![](../img/db_error.png) 
+![](../img/databaseListing.png)
 
-7. To access a particular database, click on the database card to drill in.
-![](../img/single_db.png)
-![](../img/single_db1.png)
+To access a particular database, click on the database to proceed to the database settings page that will show as below
 
-8. You can read instructions on how to access your newly created database as well as the provision to copy database credentials.
+![](../img/databaseDashboard.png)
+
+![](../img/databaseMoreSection.png)
+
+You can read instructions on how to access your newly created database as well as the provision to copy database credentials.
 
 ## Change Database Password
 
-1. To change a database password, click a database from the database list.
+1. Navigate to the `More Options` section within the database settings page
 
+2. Proceed to click on the `Change Password` button.
 
-2. Once inside the database, look for a more options section at the bottom similar to that one below.
+3. On clicking the button, a modal appears prompting you to go ahead and change the database password.
 
-    ![](../img/single_db1.png)
+   ![](../img/changePassword.png)
 
-3. On the database settings page, click on the `Change Password` button. 
+### Possible Warnings
 
-
-4. On clicking the button, a modal appears prompting you to go ahead and change the database password.
-    ![](../img/change_password.png)
-
-5. If the password entered is too short, the system will prompt you to enter a password of atleast 8 characters.
-![](../img/less_characters.png)
-
-6. If the password entered is too long, the system will prompt you to enter a password of atmost 32 characters.
-![](../img/too_long_password.png)
-
-7. If the passwords entered do not match, the system will prompt you to enter the same password.
-![](../img/password_mismatch.png)
-
+- If the password entered is too short, the system will prompt you to enter a password of atleast 8 characters.
+- If the password entered is too long, the system will prompt you to enter a password of atmost 32 characters.
+- If the passwords entered do not match, the system will prompt you to enter the same password.
 
 ## Reseting A Database
 
-1. To reset a database, click a database from the database list.
+1. Navigate to the `More Options` section within the database settings page
 
+2. Proceed to click on the `Reset` button.
 
-2. Once inside the database, at the bottom section similar to the one below.
+3. On clicking the button, a modal appears prompting you to go ahead and reset the database.
+   ![](../img/resetDatabase.png)
 
-    ![](../img/single_db1.png)
+**_ Once you click the reset button, you will be unable to recover the deleted database tables and data therein. _**
 
-3. On the database settings page, click on the `RESET DATABASE` button on at bottom of the page. 
+## Disabling A Database
 
+1. Navigate to the `More Options` section within the database settings page
 
-4. On clicking the button, a modal appears prompting you to go ahead and reset the database.
-    ![](../img/reset_db_modal.png)
+2. Proceed to click on the `Disable` button.
 
-5. Click the *RESET DATABASE* button and the database will be reset.
-![](../img/successful_reset.png)
+![](../img/disablingDatabase.png)
 
-*** Once you click the reset button, you will be unable to recover the deleted database tables and data therein. ***
+**_ Once you click the disable button, you won't be able to access your database. _**
 
 ## Deleting A Database
 
-1. To delete a database, click a database from the database list.
+1. Navigate to the `More Options` section within the database settings page
 
+2. Proceed to click on the `Delete` button.
 
-2. Once inside the database, on the database settings page, click on the `DELETE DATABASE` button on at bottom of the page. 
+3. On clicking the button, a modal appears prompting you to go ahead and delete the database.
+   ![](../img/deleteDatabase.png)
 
-
-4. On clicking the button, a modal appears prompting you to go ahead and delete the database.
-    ![](../img/db_delete.png)
-
-5. Click the *DELETE DATABASE* button and the database will be deleted.
-
-*** Once you click the delete button, you will be unable to recover the deleted database. ***
+**_ Once you click the delete button, you will be unable to recover the deleted database. _**
