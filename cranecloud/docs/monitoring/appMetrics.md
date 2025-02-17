@@ -1,63 +1,44 @@
-# APPLICATION MONITORING
+# Application monitoring on Crane Cloud
 
-## Accesing Application Metrics
-1. All applications metrics can be accessed through the side bar that is located at the right hand
-  side of the apps page of a selected app.
-  ![](../img/apps_page.png)
+## Accesing metrics for an application
+All application metrics can be accessed through the `Side Bar` that is located on the left of the app dashboard page under the `Metrics` section.
 
-## Metrics Page
-1. The Metrics page can be accessed by clicking  the *METRICS* link in the sidebar.
+## CPU
+Under the `Metrics` section, the application CPU metrics page can be accessed by clicking the `CPU` in the sidebar.
 
-   ![](../img/app_sidebar.png)
+The page similar to the one below will be shown.
+ ![](https://user-images.githubusercontent.com/29985169/91437707-fb677a80-e872-11ea-999c-5277a9034582.png)
+**Figure 1: Shows a graph detailing the application CPU usage for a day.**
 
-2. The page similar to the one below will be shown.
-  ![](https://user-images.githubusercontent.com/32802973/92147589-077bab00-ee24-11ea-9781-89d423c0a31a.png)
-  This shows a brief preview of the various metrics graphs.
+This below shows the application CPU usage for a week (7 days).
+ ![](https://user-images.githubusercontent.com/29985169/91437725-028e8880-e873-11ea-840b-b1bd8bdae627.png)
+**Figure 2: Shows a graph detailing the application CPU usage for a week.**
 
-## CPU Page
-1. The CPU page can be accessed by clicking the *CPU* in the sidebar.
+## Memory
+Under the `Metrics` section, the application memory metrics page can be accessed by clicking the `Memory` in the sidebar.
+ 
+The page similar to the one below will be shown.
+ ![](https://user-images.githubusercontent.com/29985169/91333168-ea1c6080-e7d5-11ea-9aef-27f10e1b4108.png)
+**Figure 1: Shows a graph detailing the application memory usage for a day.**
 
-  ![](../img/app_sidebar.png)
+This below shows the application Memory usage for a week(7 days).
+ ![](https://user-images.githubusercontent.com/29985169/91333237-015b4e00-e7d6-11ea-8f6a-0fc30bc596d7.png)
+**Figure 2: Shows a graph detailing the application memory usage for a week.**
 
-2. The page similar to the one below will be shown.
-  ![](https://user-images.githubusercontent.com/32802973/93436770-e3b06e80-f8d3-11ea-8052-4540e448dae9.png)
-  This shows a graph detailing the application CPU usage for a day.
+This below shows the application Memory usage for a month.
+ ![](https://user-images.githubusercontent.com/29985169/91333268-0b7d4c80-e7d6-11ea-962a-352c4eeaf656.png)
+**Figure 3: Shows a graph detailing the application memory usage for a month.**
 
-3. This below shows the application CPU usage for a week(7 days).
-   ![](https://user-images.githubusercontent.com/29985169/91437725-028e8880-e873-11ea-840b-b1bd8bdae627.png)
+## Network
+Under the `Metrics` section, the application network metrics page can be accessed by clicking the `Network` in the sidebar.
+ 
+The page similar to the one below will be shown.
+ ![](https://user-images.githubusercontent.com/32802973/93486822-4bcf7680-f90d-11ea-91bc-d6efcbdb6dc7.png)
+**Figure 1: Shows a graph detailing the application network usage for a day.**
 
-## Memory Page
-1. The Memory page can be accessed by clicking the *Memory* in the sidebar.
-  
-  ![](../img/app_sidebar.png)
+## Logs
+Under the `Metrics` section, the application logs page can be accessed by clicking the `Logs` in the sidebar.
 
-2. The page similar to the one below will be shown.
-  ![](https://user-images.githubusercontent.com/29985169/91333168-ea1c6080-e7d5-11ea-9aef-27f10e1b4108.png)
-  This shows a graph detailing the application Memory usage for a day.
-
-3. This below shows the application Memory usage for a week(7 days).
-   ![](https://user-images.githubusercontent.com/29985169/91333237-015b4e00-e7d6-11ea-8f6a-0fc30bc596d7.png)
-
-4. This below shows the application Memory usage for a month.
-   ![](https://user-images.githubusercontent.com/29985169/91333268-0b7d4c80-e7d6-11ea-962a-352c4eeaf656.png)
-
-## Network Page
-1. The Network page can be accessed by clicking the *Network* in the sidebar.
-
-  ![](../img/app_sidebar.png)
-
-2. The page similar to the one below will be shown.
-  ![](https://user-images.githubusercontent.com/32802973/93486830-4d993a00-f90d-11ea-8bb1-8e86b277c13c.png)
-  
-  This shows a graph detailing the application Network usage for a day.
-
-## Logs Page
-1. The logs page can be accessed by clicking the *Logs* in the sidebar.
-   ![](../img/logspage.png)
-
-2. The theme of the logs page can be changed to dark and switched back basing on ones preference by clicking on the toggle button at the top right side of the page. 
-![](../img/darkthemelogs.png)
-
-
-
-   
+The page similar to the one below will be shown.
+ ![](../img/app_logs.png)
+**Figure 1: Shows the application logs.**

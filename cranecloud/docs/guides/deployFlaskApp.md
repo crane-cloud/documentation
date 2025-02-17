@@ -1,16 +1,16 @@
 Getting an application running on Crane Cloud is essentially working out how to package it as a deployable image. Once packaged it can be deployed to the Crane Cloud platform.
 
-In this guide, we will learn how to containerize a sample flask Application using Docker and then deploy to Crane Cloud. See [demo here](https://my-flask-app-595ccbea-3653-495f-a047.cranecloud.io/)
+In this guide, we will learn how to containerize a sample flask Application using Docker and then deploy to Crane Cloud.
 
 ## Prerequisites
 
 Before we begin, we assume that you already have the following:
 
-1. Fork [sample-flask-app](https://github.com/crane-cloud-Apps/sample-flask-app) on Github.
+1. Fork <a href="https://github.com/crane-cloud-Apps/sample-flask-app" target="_blank" rel="noopener noreferrer">sample-flask-app on Github.</a>
 
-2. Docker installed on your machine. If you haven't got Docker installed, you can use [this resource](https://docs.docker.com/get-docker/) to get you up and running.
+2. Docker installed on your machine. If you haven't got Docker installed, you can use <a href="https://docs.docker.com/get-docker/" target="_blank" rel="noopener noreferrer">this resource</a> to get you up and running.
 
-3. Docker Hub account. If you need to create one first, [click here.](https://hub.docker.com/signup)
+3. Docker Hub account. If you need to create one first, <a href="https://hub.docker.com/signup" target="_blank" rel="noopener noreferrer">Click here</a>
 
 ## Create a Dockerfile for your app
 
@@ -36,25 +36,17 @@ EXPOSE 8080
 CMD ["python", "app.py"]
 ```
 
-After the step above, you should have something like this
-
-![](../img/DockerfileFlask.png)
-
 ## Build a Docker Image for your app
 
-You must note that the Dockerfile is like the heart of our dockerization process, without it we cannot build a Docker image for our application. We can therefore build our docker image by running this command `docker build . -t  rhodinnagwere/flask-app`
+You must note that the Dockerfile is like the heart of our dockerization process, without it we cannot build a Docker image for our application. We can therefore build our docker image by running this command `docker build . -t <yourDockerhubUsername>/flask-app`
 
-- `rhodinnagwere/flask-app` is the image name I chose for this guide, but you can provide any name of your choice.
-
-![](../img/buildFlask.png)
+- `<yourDockerhubUsername>/flask-app` is the docker image name I chose for this guide, whereby `<yourDockerHubUsername>` should be replaced by your DockerHub account username.
 
 ## Run our Docker Image locally
 
-To confirm that the image was successfully built, run `docker run -p 4000:8080 rhodinnagwere/flask-app`. This will run our containerized app locally on `port 8080`.
+To confirm that the image was successfully built, run `docker run -p 4000:8080 <yourDockerHubUsername>/flask-app`. This will run our containerized app locally on `port 8080`.
 
 - The `-p` flag redirects a public port to a private port inside the container and the private port in this case is the port value `8080` we exposed in our Dockerfile while building the image.
-
-![](../img/runFlaskLocally.png)
 
 Next, we are going to push our local image to DockerHub so that we can access our application remotely and deploy it on Crane Cloud.
 
@@ -62,20 +54,15 @@ Next, we are going to push our local image to DockerHub so that we can access ou
 
 We also need to access DockerHub in order to push our local image to our newly created project.
 
-Inorder to do that, let us run `docker login` and authenticate with our DockerHub credentials as illustrated below. Now we are successfully logged in to DockerHub on our terminal.
+Inorder to do that, run `docker login` and authenticate with your DockerHub credentials
 
-![](../img/dockerLoginNode.png)
+Before we can push the image, we need to tag it. Docker tags are a way of referring to your image that conveys useful information about its version. This is done in the format `docker tag <local-image-name> <yourDockerhubUsername>/<project-name>:<version>`
 
-Before we can push the image, we need to tag it. Docker tags are a way of referring to your image that conveys useful information about its version. This is done in the format `docker tag <local-image-name> dockerUsername/<project-name>:<version>`
+In our case, this will be `docker tag <yourDockerhubUsername>/flask-app <yourDockerhubUsername>/flask-app:latest`
 
-In our case, this will be `docker tag rhodinnagwere/flask-app rhodinnagwere/flask-app:latest`
+- `<yourDockerhubUsername>/flask-app` is the DockerHub repository I have created and after it is a tag `latest`
 
-- `rhodinnagwere` is my DockerHub username
-- `rhodinnagwere/flask-app` is the DockerHub repository I have created and after it is a tag `latest`
-
-After adding a tag to your image, you can proceed to push your local image along with its tag to DockerHub using the command `docker push rhodinnagwere/flask-app:latest`
-
-![](../img/pushFlaskImage.png)
+After adding a tag to your image, you can proceed to push your local image along with its tag to DockerHub using the command `docker push <yourDockerhubUsername>/flask-app:latest`
 
 ## Deploy to Crane Cloud
 
@@ -85,12 +72,8 @@ After adding a tag to your image, you can proceed to push your local image along
 
 - Inside that project, you create an app called `my-flask-app` as illustrated below and incase you do not know how that is done, learn from [here](../applications/deployApp.md)
 
-![](../img/deployFlask.png)
+![](../img/deploy_flask.png)
 
 After providing the above information, we can then deploy our app by clicking the `DEPLOY` button.
-
-![](../img/deployFlaskSuccess.png)
-
-Our python flask application is successfully deployed on Crane Cloud.
 
 Thank you for following this guide.
