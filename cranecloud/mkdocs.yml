@@ -1,22 +1,19 @@
 site_name: Crane Cloud
 nav:
-  - Authentication:
-      - Registration: authentication/registration.md
-      - Account Verification: authentication/accountVerification.md
-      - Login: authentication/login.md
-      - User Dashboard: authentication/userDashboard.md
-      - Forgot Password: authentication/forgotPassword.md
+  - Home: index.md
+  - User accounts:
+      - Create an account: user-accounts/registration.md
+      - Account verification: user-accounts/account-verification.md
+      - Access your account: user-accounts/login.md
+      - Forgot password: user-accounts/forgot-password.md
   - Projects:
-      - Projects: projects/projects.md
-      - Project Collaboration: projects/projectCollaboration.md
+      - Projects: projects/index.md
+      - Project collaboration: projects/project-collaboration.md
   - Applications:
-      - Deploy stand-alone Application: applications/deployWithoutDB.md
-      - Update deployed application: applications/updateApp.md
-      - Delete deployed application: applications/deleteApp.md
-      - Add Custom Domain: applications/customDomain.md
-      - Deploy an app using the MIRA service: applications/deployWithMira.md
-      - Deploy microservices: applications/microservices.md
-      - Implement CI/CD with Docker WebHook: applications/webHook.md
+      - Deploy single application: applications/deploy-singleApp.md
+      - Deploy applications using MIRA: applications/deploy-usingMira.md
+      - Deploy microservices: applications/deploy-microservices.md
+      - Application management: applications/management.md
   - Deployment Guides:
       - Deploy an HTML App: guides/deployHtmlApp.md
       - Deploy a ReactJs App: guides/deployReactApp.md
@@ -24,14 +21,14 @@ nav:
       - Deploy a Flask App: guides/deployFlaskApp.md
       - Deploy a Laravel App: guides/deployLaravelApp.md
   - Databases:
-      - Databases: databases/database.md
+      - Databases: databases/index.md
   - Crane Cloud CLI Client:
-      - Using python pip: cli/pip_cli.md
+      - Using python pip: command-line-interface/using-python-pip.md
   - Monitoring:
       - Project monitoring: monitoring/projects.md
-      - Application monitoring: monitoring/appMetrics.md
+      - Application monitoring: monitoring/applications.md
   - Learning Tools:
-      - Self Managed Gitlab: learning/gitlab.md
+      - Self managed Gitlab: learning/gitlab.md
 theme:
   name: material
   favicon: img/favicon.png

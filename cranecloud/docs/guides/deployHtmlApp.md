@@ -59,9 +59,9 @@ After adding a tag to your image, you can proceed to push your local image along
 
 ## Deploy to Crane Cloud
 
-- Login to your Crane Cloud account, incase you do not have one you can simply create one by visiting [here](../authentication/registration.md)
+- Login to your Crane Cloud account, incase you do not have one you can simply create one by visiting [here](../user-accounts/registration.md)
 
-- From your dashboard create a project, you can see how its done [here](../projects/projects.md)
+- From your dashboard create a project, you can see how its done [here](../projects/index.md)
 
 - Inside that project, you create an app called `my-html-app` as illustrated below
 

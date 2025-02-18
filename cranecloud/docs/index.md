@@ -1,12 +1,13 @@
 # Welcome to Crane Cloud
 
-![](/img/getstarted.png)
+![](./img/getstarted.png)
 
 ## Documentation overview
 
-- `Authentication` - Dive deeper in SignUp, LogIn and Password Reset.
+- `Access Management` - Dive deeper in creating an account, login and password reset.
 - `Projects` - Explore possibilities of Creation, Updating, Deleting and project billing.
 - `Applications` - Guidelines on how to deploy various applications.
+- `Deployment Guides` - Follow stepwise guides on how to deploy common programming languages and frameworks on Crane Cloud.
 - `Databases` - Guide on how to create and access a database.
 - `Crane Cloud CLI Client` - Explore our powerful command-line tool that enables seamless interaction with Crane Cloud services.
 - `Monitoring` - Insights on how to best understand the project and application metrics.
