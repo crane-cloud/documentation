@@ -1,0 +1,19 @@
+[data-md-color-scheme="default"] .md-header__title {
+    color: #008ac1 !important;
+}
+
+[data-md-color-scheme="slate"] .md-header__title {
+    color: white !important;
+}
+
+.md-typeset code {
+    font-size: 0.75rem !important;
+}
+
+.md-typeset code:not(.highlight) {
+    font-size: 0.75rem !important;
+}
+
+.highlight pre {
+    font-size: 0.75rem !important;
+}
