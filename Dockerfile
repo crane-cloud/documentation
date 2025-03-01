@@ -1,4 +1,4 @@
-FROM python:3.6 as build
+FROM python:3.13-alpine as build
 
 WORKDIR /app
 

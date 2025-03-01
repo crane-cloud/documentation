@@ -1,12 +1,10 @@
-Our [Self Managed GitLab](https://gitlab.cranecloud.io) provides a wide range of features that can be used to manage your projects including all the core features such as version control, issue-tracking, code review, CI/CD, wiki and security scanning among others. This guide will help you get started with the self-managed GitLab.
+Our <a href="https://gitlab.cranecloud.io" target="_blank" rel="noopener noreferrer">Self Managed GitLab</a> provides a wide range of features that can be used to manage your projects including all the core features such as version control, issue-tracking, code review, CI/CD, wiki and security scanning among others. 
 
 ## Authentication
 
-To access the self-managed GitLab, you need to have an account. If you don't have one, you can create one when you visit the platform [here](https://gitlab.cranecloud.io/users/sign_up). Once you have an account, you can login to the self-managed GitLab [here](https://gitlab.cranecloud.io/users/sign_in) page as shown in figure 1.
+- To access the self-managed GitLab, you need to have an account. If you don't have one, you can create one when you visit the platform <a href="https://gitlab.cranecloud.io/users/sign_up" target="_blank" rel="noopener noreferrer">here</a>. 
 
-![](../img/gitlab4.png)
-
-Figure 1: GitLab CE login page
+- Once you have an account, you can login to the self-managed GitLab <a href="https://gitlab.cranecloud.io/users/sign_in" target="_blank" rel="noopener noreferrer">here</a>. 
 
 ## Dashboard
 
@@ -37,14 +35,6 @@ After the initial configuration, we can create our first project. To do this, go
 ![](../img/gitlab2.png)
 
 Figure 3: Project creation page
-
-
-Optionally, creating a blank project you are required to type a name for your project, choose the visibility level and also the project configuration. After all the creation descriptions you click the `create project` button.
-
-![](../img/create_proj_form.png)
-
-Figure 4: Project description
-
 
 ## Importing a project
 
@@ -85,7 +75,7 @@ You can clone a project from to your local computer, or to a codespace, to make 
 6. Type `git clone`, and then paste the URL you copied earlier.
 
 ```bash
-git clone https://gitlab.cranecloud.io/techies/computer-science/csc-class-assignment-101.git
+> git clone https://gitlab.cranecloud.io/techies/computer-science/csc-class-assignment-101.git
 ```
 NOTE: When cloning the project from the gitlab, you are prompted to comfirm with your username and then later your password. This is to ensure a privacy and code security.
 
@@ -98,25 +88,25 @@ Open your terminal and navigate to the directory that contains your code with th
  - Initialize the current directory has a git repository. It means in this local project you can now run the git commands.
 
 ```bash
-git init
+> git init
 ```
 
 - Add the files in your new local repository. This stages them for the first commit.
 
 ```bash
-git add .
+> git add .
 ```
 
 - Commit the files that you've staged in your local repository.
 
 ```bash
-git commit -m "First commit"
+> git commit -m "First commit"
 ```
 
 - In the terminal, add the URL for the remote repository where your local repository will be pushed.
 
 ```bash
-git remote add origin https://gitlab.cranecloud.io/username/projectname.git
+> git remote add origin https://gitlab.cranecloud.io/username/projectname.git
 ```
 
 NOTE: Replace `username` with your username and `projectname` with the name of the project you want to push to.
@@ -124,8 +114,5 @@ NOTE: Replace `username` with your username and `projectname` with the name of t
 - Push the changes in your local repository to GitLab.
 
 ```bash
-git push -u origin master
+> git push -u origin master
 ```
-![](../img/push.png)
-
-Figure 7: Pushing local changes to remote project on Gitlab.
