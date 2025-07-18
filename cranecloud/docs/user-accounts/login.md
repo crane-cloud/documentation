@@ -1,6 +1,6 @@
 ## Access login portal
 
-- Visit <a href="https://app.cranecloud.io/login" target="_blank" rel="noopener noreferrer">https://app.cranecloud.io/login</a> to access the Crane Cloud login portal
+- Visit <a href="https://app.cranecloud.io/login" target="_blank" rel="noopener noreferrer">https://app.cranecloud.io</a> to access the Crane Cloud login portal
 - You will see the login form with fields for email and password
 
 ## Login steps
@@ -41,9 +41,27 @@ Crane Cloud supports login via Github.
 - Authorize the connection if prompted
 - You will be redirected to your Crane Cloud dashboard
 
+
+## Google login
+Crane Cloud supports login via Google.
+
+### Requirements
+
+- An active Google account
+
+### How it works
+
+- Click the Google login option
+- Authorize the connection if prompted
+- You will be redirected to your Crane Cloud dashboard
+
 Need Help?
 
 - Forgot your password? Use the password reset link above the login button
 - Having trouble with Github login? Ensure your Github account is valid
+- Having trouble with Google login? Ensure your Google account is valid
 
 For any other issues, contact our support team `info@cranecloud.io` if you encounter any issues accessing your account.
+
+
+

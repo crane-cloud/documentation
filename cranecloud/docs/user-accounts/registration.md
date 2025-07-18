@@ -1,12 +1,11 @@
 ## Getting started
 To create a new account on Crane Cloud, you have two options:
 
-- Visit <a href="https://app.cranecloud.io/register" target="_blank" rel="noopener noreferrer">https://app.cranecloud.io/register</a>
+- Visit <a href="https://app.cranecloud.io/register" target="_blank" rel="noopener noreferrer">https://app.cranecloud.io</a>
 - Visit the login page <a href="https://app.cranecloud.io/login" target="_blank" rel="noopener noreferrer">here</a> and click the `Create an account` link
 
 ## Registration process
 The registration form requires several pieces of information. All fields are mandatory.
-
 ### Name requirements
 
 Enter your name using alphanumeric characters.
