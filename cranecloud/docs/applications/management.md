@@ -103,13 +103,13 @@ Setting up webhook
     - Paste generated Crane Cloud URL
 - Save webhook configuration
 
-### Deployments
-- The Deployments section provides a historical record of changes made to your application. 
-- This includes image updates, replica changes, and other configuration modifications. 
-- Each deployment is listed with relevant details and includes the option to rollback to a previous state if needed.
-
-### Deployment Details
-- Each deployment entry includes the following information; Revision, Image, Replicas, Created At, Actions 
+### Deployment
+- Each deployment entry includes the following information; 
+   - Revision
+   - Image 
+   - Replicas
+   - Created At
+   - Actions 
 
 ### Rollback
 - Click the Rollback button under the Actions column for a selected revision.
@@ -121,7 +121,12 @@ Setting up webhook
 ### Updating an application
 - On clicking the Update App button under the App Settings section, a form appears allowing you to modify your application configuration.
 
-You can update the following fields; Application Name, Image, Port, Number of replicas and Entry Command 
+- You can update the following fields; 
+   - Application Name
+   - Image
+   - Port
+   - Number of replicas
+   - Entry Command 
 
 After making the necessary changes, click the Update button to save and apply the new configuration to your application.
 ### Disabling an application
