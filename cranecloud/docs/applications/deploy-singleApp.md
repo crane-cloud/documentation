@@ -3,12 +3,7 @@
 Application name
 
 - Enter a unique name for your application
-
-Number of replicas
-
-- Specify how many instances of your app to run
-- Defaults to 1 if not specified
-- Increase for better availability and load distribution
+- This name will be used to identify your application within the platform.
 
 ### Image configuration
 If deploying a public image
@@ -22,6 +17,24 @@ If deploying a private image
     - Email
     - Password
     - Registry (e.g., docker.io)
+
+### Port Configuration
+- Enter the port number your application will expose.
+- Default port is 80 if left blank.
+- Ensure the port matches the one your app listens to inside the container.
+
+
+### Number of replicas
+- Specify how many instances of your app to run
+- Defaults to 1 if not specified
+- Increase for better availability and load distribution
+
+### Entry Command
+- You can specify an entry point or command for your application.
+
+- This will override the default CMD or ENTRYPOINT defined in your image.
+
+- Leave blank to use the default.
 
 ### Environment variables
 Two ways to add environment variables:
@@ -38,7 +51,8 @@ Two ways to add environment variables:
 
 ### Deployment process
 
-- Fill in all required fields
+- Fill in all required fields (Application Name, Image).
+- (Optional) Add Port, Entry Command, and Environment Variables as needed.
 - Add any necessary environment variables
 - Review your configuration
 - Click the `Deploy` button

@@ -29,6 +29,44 @@ The Invite Member button launches a modal that requires the following informatio
 
 - An email for the collaborator/user is required for purposes of notifying them with an email invite
 - The collaborator's role which can either be `Member/Administrator` which can determine what they can do under a project
+## Types of roles
+
+Each project on Crane Cloud can have users assigned one of the following roles: `Owner`, `Administrator`, or `Member`. Each role comes with specific permissions and limitations.
+
+### Owner
+
+- This is the creator of the project. Has full access and control over the project.
+- Can:
+  - Edit project details
+  - Add or remove members
+  - Assign roles
+  - Migrate, disable, or delete the project
+- There can only be one owner per project.
+
+### Administrator
+
+- Has elevated permissions similar to the owner, but with some restrictions.
+- Can:
+  - Invite and manage members
+  - Access and manage apps and databases
+  - Perform updates to project metadata
+- Cannot:
+  - Migrate or delete the project
+  - Change ownership of the project
+
+### Member
+
+- Has limited access focused on contributing to the project without administrative control.
+- Can:
+  - Access applications and databases within the project
+  - View project details
+- Cannot:
+  - Add or remove members
+  - Edit project metadata
+  - Migrate, disable, or delete the project
+
+> **Note:** Roles determine the scope of access and actions a user can perform within the project. Make sure to assign roles carefully based on the collaborator’s responsibility.
+
 
 NB: Once the correct details are provided, an invitation for collaboration is dispatched to the specified email. This invitation includes a link through which the collaborator can gain access to the project. 
 
