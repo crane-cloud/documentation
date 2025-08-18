@@ -9,11 +9,13 @@
 
 View essential information:
 
-- Project name
 - Application name
 - Alias
-- Status
+- Image
+- Application Status
+- Replicas
 - Age
+- Port
 - Current revision
 
 ### Image settings
@@ -101,6 +103,32 @@ Setting up webhook
     - Paste generated Crane Cloud URL
 - Save webhook configuration
 
+### Deployment
+- Each deployment entry includes the following information; 
+   - Revision
+   - Image 
+   - Replicas
+   - Created At
+   - Actions 
+
+### Rollback
+- Click the Rollback button under the Actions column for a selected revision.
+
+- This will revert your application to the state it was in during that deployment, using the specified image and configuration.
+
+- Use rollback if a recent update causes issues or if you want to restore a previously stable version.
+
+### Updating an application
+- On clicking the Update App button under the App Settings section, a form appears allowing you to modify your application configuration.
+
+- You can update the following fields; 
+   - Application Name
+   - Image
+   - Port
+   - Number of replicas
+   - Entry Command 
+
+After making the necessary changes, click the Update button to save and apply the new configuration to your application.
 ### Disabling an application
 
 - On clicking the `Disable` button under the `Manage Application` section, a modal appears prompting you to confirm your action which will put a pause to your application.

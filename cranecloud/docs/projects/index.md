@@ -40,12 +40,6 @@ The project settings is composed of three sections which include:
 
 Project migration allows you to move an existing project from one server location (data center) to another within Crane Cloud.
 
-### What is project migration?
-
-`Project migration` is the process of transferring a project and all its associated deployments from the current server location to a different one. This is useful when optimizing for performance, reducing latency for your users, or managing infrastructure more efficiently.
-
-
-
 
 - To migrate your project, click on the project card.
 
