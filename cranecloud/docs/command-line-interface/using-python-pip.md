@@ -5,72 +5,88 @@ Crane Cloud CLI is a powerful command-line tool that enables seamless interactio
 ## Installation
 
 ### Prerequisites
-
 - Python 3.9 or higher
 - pip (Python package installer)
 
 ### Install via pip
-
 ```bash
-> pip install cranecloud
+pip install cranecloud
 ```
 
 For system-wide installation (may require administrator privileges):
-
 ```bash
-> sudo pip install cranecloud
+sudo pip install cranecloud
 ```
 
 ### Upgrade to the latest version
-
 ```bash
-> pip install --upgrade cranecloud
+pip install --upgrade cranecloud
 ```
 
 ### Verify installation
-
 Verify that the installation was successful:
-
 ```bash
-> cranecloud
+cranecloud --help
 ```
 
-### Authentication and account management
+## Getting Started
 
-**Login:** Authenticate the user with their credentials.
+### Authentication and Account Management
 
+**Login:** Authenticate with your Crane Cloud credentials.
 ```bash
-> cranecloud auth login
+cranecloud auth login
 ```
 
-**Logout:** Log out the user, clearing the stored credentials.
-
+**Logout:** Log out and clear stored credentials.
 ```bash
-> cranecloud auth logout
+cranecloud auth logout
 ```
 
-**User information:** Retrieve information about the logged-in user.
-
+**User Information:** Retrieve information about the logged-in user.
 ```bash
-> cranecloud auth user
+cranecloud auth user
 ```
 
-### Project management
+## Configuration Management
 
-**List projects:** Show a list of projects available in the user's account.
-
+### View Current Configuration
+**Display CLI Configuration:** Shows current CLI configuration settings.
 ```bash
-> cranecloud projects list
+cranecloud config get-config
 ```
 
-**Create a project:** Create a new project.
-
+### Cluster Management
+**List Available Clusters:** Shows all clusters accessible to your account.
 ```bash
-> cranecloud projects create [OPTIONS]
+cranecloud clusters list
 ```
 
-Required [OPTIONS]:
+**Set Current Cluster:** Set a specific cluster as the current working cluster.
+```bash
+cranecloud clusters use-cluster <cluster_id>
+```
 
+## Project Management
+
+### List and View Projects
+**List All Projects:** Show all projects available in your account.
+```bash
+cranecloud projects list
+```
+
+**Get Project Details:** View detailed information about a specific project.
+```bash
+cranecloud projects info --id <project_id>
+```
+
+### Create and Configure Projects
+**Create a New Project:** Create a project with specified parameters.
+```bash
+cranecloud projects create -n <project_name> -d "<project_description>" -t <project_type> -o <organisation>
+```
+
+Required Options:
 - `-n, --name`: Name of the project
 
 - `-d, --description`: Description of the project
@@ -83,77 +99,117 @@ Optional Options:
 
 - `-c, --cluster_id`: ID of the cluster where the project will be created
 
-
-## 
-
-**Delete a project:** Delete a project by ID or name.
-
+**Set Current Project:** Set a project as the current working context.
 ```bash
-> cranecloud projects delete --id <project_id>
+cranecloud projects set <project_id>
 ```
 
-**Get project details:** View detailed information about a project.
-
+### Project Cleanup
+**Delete a Project:** Remove a project by ID.
 ```bash
-> cranecloud projects info --id <project_id>
+cranecloud projects delete --id <project_id>
 ```
 
-### Configuration management
+## Application Management
 
-**List config:** Show a list of config available for the current user.
-
+### Deploy Applications
+**Deploy a New App:** Deploy an application with comprehensive configuration.
 ```bash
-> cranecloud config get-config
+cranecloud apps deploy -n <app_name> -i <image> -c "<start_command>" -r <replicas> -o <port> -e "KEY=VALUE"
 ```
 
-**Set current project to use:** This is projects apps commands will default to.
+Parameters:
 
+- `-n`: Application name
+
+- `-i`: Container image
+
+- `-c`: Start command for the application
+
+- `-r`: Number of replicas
+
+- `-o`: Port number
+
+- `-e`: Environment variables (can be used multiple times)
+
+**Simple Deploy:** Initiate an app deployment interactively.
 ```bash
-> cranecloud projects use-project <project_id>
+cranecloud apps deploy
 ```
 
-**Set current cluster to use:** This is cluster projects commands will default to.
-
+### Manage Existing Applications
+**List Applications:** Show all apps within the current project.
 ```bash
-> cranecloud projects use-project <cluster_id>
+cranecloud apps list
 ```
 
-### App commands
-
-**Deploy an app:** Initiate an app.
-
+**Get App Details:** View detailed information about a specific application.
 ```bash
-> cranecloud apps deploy
+cranecloud apps info <app_id>
 ```
 
-**List apps:** Show apps within a project.
-
+**Update Application:** Modify app configuration or settings.
 ```bash
-> cranecloud apps list 
+cranecloud apps update <app_id>
 ```
 
-**Update an app:** Update app information.
-
+**Delete Application:** Remove an application by ID.
 ```bash
-> cranecloud apps update <app_id>
+cranecloud apps delete --id <app_id>
 ```
 
-**Get app details:** View detailed information about a specific app.
+## Workflow Examples
 
+### Basic Setup Workflow
+
+**Login to your account:**
 ```bash
-> cranecloud apps info <app_id>
+cranecloud auth login
 ```
 
-**Delete app:** Delete an app by ID or name.
-
+**List available clusters:**
 ```bash
-> cranecloud apps delete --id <app_id>
+cranecloud clusters list
 ```
 
-### Other useful commands
-
-**Help information:** Show manual.
-
+**Set your working cluster:**
 ```bash
-> cranecloud --help
+cranecloud clusters use-cluster <cluster_id>
+```
+
+**Create or select a project:**
+```bash
+cranecloud projects create -n "my-project" -d "My application project" -t "web" -o "my-org"
+```
+
+**Set the project as current:**
+```bash
+cranecloud projects set <project_id>
+```
+
+**Deploy your application:**
+```bash
+cranecloud apps deploy -n "my-app" -i "nginx:latest" -c "nginx -g 'daemon off;'" -r 2 -o 80 -e "ENV=production"
+```
+
+**Check deployment status:**
+```bash
+cranecloud apps list
+```
+
+**View app details:**
+```bash
+cranecloud apps info <app_id>
+```
+
+## Additional Commands
+
+**Help Information:** Display comprehensive help and available commands.
+```bash
+cranecloud --help
+```
+
+**Command-Specific Help:** Get help for specific commands.
+```bash
+cranecloud <command> --help
 ```
