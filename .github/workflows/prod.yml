@@ -3,14 +3,14 @@ name: Production Deployment
 on:
     push:
         branches:
-            - ch-update-deployment
+            - main
     release:
         types:
             - released
             - prereleased
 
 jobs:
-    build_and_deploy_production:
+    build_and_deploy:
         outputs:
             image: ${{ steps.export.outputs.image }}
             tag: ${{ steps.export.outputs.tag }}
