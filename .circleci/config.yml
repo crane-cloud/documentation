@@ -1,3 +1,4 @@
+version: 2.1
 
 attach_workspace: &attach_workspace
   attach_workspace:
@@ -13,9 +14,9 @@ build_and_push_image: &build_and_push_image
     name: build image
     command: |
       export IMG_TAG=$(echo $CIRCLE_SHA1 | cut -c -7)
-      docker login -u _json_key -p "$(echo $GCLOUD_SERVICE_KEY)" https://gcr.io
-      docker build -f Dockerfile -t gcr.io/$GCP_PROJECT_ID/cranecloud-docs:$IMG_TAG .
-      docker push gcr.io/$GCP_PROJECT_ID/cranecloud-docs:$IMG_TAG
+      docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
+      docker build -f Dockerfile -t cranecloud/cranecloud-docs:$IMG_TAG .
+      docker push cranecloud/cranecloud-docs:$IMG_TAG
 
 configure_gcloud: &configure_gcloud
   run:
@@ -30,8 +31,7 @@ deploy_to_kubernetes: &deploy_to_kubernetes
     name: update deployment image
     command: |
       export IMG_TAG=$(echo $CIRCLE_SHA1 | cut -c -7)
-      ./kubectl set image deployment/cranecloud-docs cranecloud-docs=gcr.io/$GCP_PROJECT_ID/cranecloud-docs:$IMG_TAG --record -n $namespace
-
+      ./kubectl set image deployment/cranecloud-docs cranecloud-docs=cranecloud/cranecloud-docs:$IMG_TAG --record -n $namespace
 
 jobs:
   build_and_deploy_staging:
@@ -73,17 +73,16 @@ jobs:
       - *configure_gcloud
       - *build_and_push_image
       - *deploy_to_kubernetes
-      
+
 workflows:
-    version: 2
-    cranecloud_deployment:
-        jobs:
-            - build_and_deploy_staging:
-                filters:
-                    branches:
-                        only: develop
-            - build_and_deploy_production:
-                filters:
-                    branches:
-                        only: main
-      
+  version: 2
+  cranecloud_deployment:
+    jobs:
+      - build_and_deploy_staging:
+          filters:
+            branches:
+              only: develop
+      - build_and_deploy_production:
+          filters:
+            branches:
+              only: main
