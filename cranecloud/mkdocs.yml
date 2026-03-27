@@ -22,6 +22,21 @@ nav:
       - Deploy a Laravel App: guides/deployLaravelApp.md
   - Databases:
       - Databases: databases/index.md
+  - Machine Learning Deployments:
+    - Best Practices: machine-learning-guides/index.md
+    - Healthcare & Medical Diagnostics:
+      - Brain Tumor Classifier (Computer Vision): machine-learning-guides/healthcare/brain-tumor.md
+      - EEG Classification App (Signal Processing): machine-learning-guides/healthcare/eeg-classification.md
+      - Diabetes Risk Assessment (Tabular/Predictive): machine-learning-guides/healthcare/diabetes-risk.md
+    - NLP & Generative AI:
+      - Hugging Face API Wrapper: machine-learning-guides/natural-language-processing/huggingface-api.md
+      - GPT-2 Text Generation Bot: machine-learning-guides/natural-language-processing/gpt2-wrapper.md
+    - Cybersecurity & Fraud:
+      - Financial Fraud Detection: machine-learning-guides/cybersecurity/fraud-detection.md
+      - IoT Intrusion Detection: machine-learning-guides/cybersecurity/iot-intrusion.md
+    - Predictive Analytics & CV:
+      - Tyre Defect Detection (MobileNet): machine-learning-guides/analytics/tyre-defect.md
+      - Food Price Prediction (Time Series): machine-learning-guides/analytics/food-price.md
   - Crane Cloud CLI Client:
       - Using python pip: command-line-interface/using-python-pip.md
   - Monitoring:
@@ -31,10 +46,15 @@ nav:
       - Self managed Gitlab: learning/gitlab.md
 theme:
   name: material
+  features:
+    - content.code.copy
+    - navigation.top         
+    - navigation.instant    
+    - search.suggest      
   favicon: img/favicon.png
   logo: img/logo.svg
   font:
-    text: Plus Jakarta Sans
+    text: Google Sans
     code: Source Code Pro
   palette:
     - scheme: default
